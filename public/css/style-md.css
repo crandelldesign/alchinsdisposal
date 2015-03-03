@@ -1,0 +1,8 @@
+/* Stylesheet for Small Devices */
+
+/* Header */
+.navbar .nav li a {
+	padding: 15px 12px;
+	margin: 0 10px;
+	font-size: 16px;
+}

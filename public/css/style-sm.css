@@ -1,0 +1,43 @@
+/* Stylesheet for Small Devices */
+
+/* Header */
+.header {
+}
+.header .container-fluid {
+	max-width: 1350px;
+	position: relative;
+}
+.header .header-img {
+	max-height: 150px;
+	width: auto;
+	margin: 20px 0;
+}
+.header a.phone-link {
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	right: 15px;
+	font-size: 30px;
+}
+.header .navbar {
+	margin-bottom: 30px;
+}
+.navbar .nav {
+	float: none;
+	text-align: center;
+}
+.navbar .nav li {
+	float: none;
+	display: inline-block;
+}
+.navbar .nav li a {
+	padding: 15px 10px;
+	margin: 0 5px;
+	font-size: 15px;
+}
+
+/* Content */
+.page {
+	max-width: 1350px;
+}

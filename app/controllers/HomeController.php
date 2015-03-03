@@ -24,9 +24,14 @@ class HomeController extends BaseController {
         return $vw;
 	}
 
-	public function showWelcome()
+	public function getContact()
 	{
-		return View::make('hello');
+		$vw = View::make('home.contact');
+		$vw->title = "Contact Us | Alchin's Disposal, Inc";
+        $vw->description = "Contact us at Alchin's Disposal, Inc";
+        $vw->active_page = "contact";
+
+        return $vw;
 	}
 
 }
