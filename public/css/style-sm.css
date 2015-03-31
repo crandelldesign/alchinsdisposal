@@ -1,10 +1,14 @@
 /* Stylesheet for Small Devices */
 
+body {
+	font-size: 16px;
+}
+
 /* Header */
 .header {
 }
 .header .container-fluid {
-	max-width: 1350px;
+	max-width: 1275px;
 	position: relative;
 }
 .header .header-img {
@@ -13,14 +17,21 @@
 	margin: 20px 0;
 }
 .header a.phone-link {
-	color: #FFF;
+	/*color: #FFF;*/
 	position: absolute;
-	top: 50%;
-	bottom: 50%;
+	top: 67px;
 	right: 15px;
 	font-size: 30px;
+	float: none;
+	width: auto;
+}
+.header a.phone-link:hover {
+	/*text-decoration: none;*/
+	background-color: #FFF;
+	color: #2a689e;
 }
 .header .navbar {
+	border-top: 1px solid #FFF;
 	margin-bottom: 30px;
 }
 .navbar .nav {
@@ -39,5 +50,13 @@
 
 /* Content */
 .page {
-	max-width: 1350px;
+	max-width: 1275px;
 }
+.page p {
+	/*max-width: 33em;*/
+	margin-bottom: 15px;
+}
+
+/* Page Styles */
+
+/* Commercial */

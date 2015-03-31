@@ -24,6 +24,46 @@ class HomeController extends BaseController {
         return $vw;
 	}
 
+	public function getResidential()
+	{
+		$vw = View::make('home.residential');
+		$vw->title = "Residential Customers | Alchin's Disposal, Inc ";
+        $vw->description = "Alchin's Disposal, Inc";
+        $vw->active_page = "residential";
+
+        return $vw;
+	}
+
+	public function getCommercial()
+	{
+		$vw = View::make('home.commercial');
+		$vw->title = "Commercial Customers | Alchin's Disposal, Inc ";
+        $vw->description = "Alchin's Disposal, Inc";
+        $vw->active_page = "commercial";
+
+        return $vw;
+	}
+
+	public function getCleanUpServices()
+	{
+		$vw = View::make('home.clean-up-services');
+		$vw->title = "Clean Up Services | Alchin's Disposal, Inc ";
+        $vw->description = "Alchin's Disposal, Inc";
+        $vw->active_page = "clean-up-services";
+
+        return $vw;
+	}
+
+	public function getRecycling()
+	{
+		$vw = View::make('home.recycling');
+		$vw->title = "Recycle and Dump Center | Alchin's Disposal, Inc";
+        $vw->description = "Recycle and Dump Center at Alchin's Disposal, Inc";
+        $vw->active_page = "recycling";
+
+        return $vw;
+	}
+
 	public function getContact()
 	{
 		$vw = View::make('home.contact');

@@ -5,7 +5,7 @@
 
 <div class="row">
 	<div class="col-sm-4 margin-bottom-20">
-		<img class="img-responsive home-featured-img" src="{{url('/')}}/img/home-img{{rand(1,5)}}.jpg" alt="Alchin's Disposal, Inc.">
+		<img class="img-responsive featured-img" src="{{url('/')}}/img/home-img{{rand(1,5)}}.jpg" alt="Alchin's Disposal, Inc.">
 	</div>
 	<div class="col-sm-5 margin-bottom-20">
 		<p>Alchin's Disposal bas been family owned and operated since 1986. We started with two trucks and less than 200 residential stops in the Livingston County area. Today, Alchin's operates with 11 trucks and over 8,000 residential and commercial customers in not only Livingston County, but in the surrounding area as well. We stand behind our reputation of excellent customer service and we feel we go beyond the expectations of our valued customers.</p>
