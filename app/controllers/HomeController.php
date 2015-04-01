@@ -64,6 +64,36 @@ class HomeController extends BaseController {
         return $vw;
 	}
 
+	public function getHolidays()
+	{
+		$vw = View::make('home.holidays');
+		$vw->title = "Holiday Schedule | Alchin's Disposal, Inc";
+        $vw->description = "Holiday Schedule at Alchin's Disposal, Inc";
+        $vw->active_page = "holidays";
+
+        return $vw;
+	}
+
+	public function getTestimonials()
+	{
+		$vw = View::make('home.testimonials');
+		$vw->title = "Testimonials | Alchin's Disposal, Inc";
+        $vw->description = "Testimonials for Alchin's Disposal, Inc";
+        $vw->active_page = "testimonials";
+
+        return $vw;
+	}
+
+	public function getPayment()
+	{
+		$vw = View::make('home.payment');
+		$vw->title = "Make a Payment | Alchin's Disposal, Inc";
+        $vw->description = "Make a Payment to Alchin's Disposal, Inc";
+        $vw->active_page = "payment";
+
+        return $vw;
+	}
+
 	public function getContact()
 	{
 		$vw = View::make('home.contact');

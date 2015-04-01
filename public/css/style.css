@@ -154,6 +154,24 @@ a:hover, a:focus, .btn:hover {
 	-webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 	-moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
+}
+.page hr {
+	border-top: 1px solid #9e2a2e;
+	width: 90%;
+}
+.page a {
+	color: #6f1f22;
+}
+.page a:hover,
+.page a:focus {
+	color: #9e2a2e;
+}
+.page a.phone,
+.page a.phone:hover,
+.page a.phone:focus {
+	color: #333;
+	text-decoration: none;
 }
 
 /* Buttons */
@@ -163,29 +181,30 @@ a:hover, a:focus, .btn:hover {
 	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 	font-weight: 300;
 }
-.btn-blue {
+.page .btn-blue {
 	background: #2a689e;
 	color: #FFF;
 	border-color: #333333;
 }
-.btn-blue:hover {
+.page .btn-blue:hover {
 	background: #43a7fd;
 }
-.btn-black {
+.page .btn-black {
 	background: #333333;
 	color: #FFF;
 	border-color: #959595;
 }
-.btn-black:hover {
+.page .btn-black:hover {
 	background: #959595;
 	border-color: #333333;
+	color: #FFF;
 }
-.btn-red {
+.page .btn-red {
 	background: #9e2a2e;
 	color: #FFF;
 	border-color: #333333;
 }
-.btn-red:hover {
+.page .btn-red:hover {
 	background: #6f1f22;
 	color: #FFF;
 }
@@ -232,4 +251,10 @@ a:hover, a:focus, .btn:hover {
 }
 .clean-up-steps li img {
 	margin-top: 10px;
+}
+/* Payment */
+.payment-form {
+	max-width: 600px;
+	margin: 0 auto 15px auto;
+	text-align: center;
 }

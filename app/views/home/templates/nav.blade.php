@@ -18,28 +18,15 @@
 	</div>
 	<nav class="navbar navbar-default">
 	  	<div class="container-fluid">
-		    <!--<div class="navbar-header">
-		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
-		      		<div class="pull-left">Menu</div>
-		      		<div class="pull-right">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-			        </div>
-		      	</button>
-		      	<a class="navbar-brand" href="{{url('/')}}">Alchin's Disposal</a>
-		    </div>-->
-
 		    <div class="collapse navbar-collapse" id="main-menu">
 			    <ul id="menu-menu" class="nav navbar-nav">
 			    	<li class="{{$active_page=='residential'?'active':''}}"><a href="{{url('/')}}/residential">Residential</a></li>
 			    	<li class="{{$active_page=='commercial'?'active':''}}"><a href="{{url('/')}}/commercial">Commercial</a></li>
 			    	<li class="{{$active_page=='clean-up-services'?'active':''}}"><a href="{{url('/')}}/clean-up-services">Clean-Up/Dumpsters</a></li>
 			    	<li class="{{$active_page=='recycling'?'active':''}}"><a href="{{url('/')}}/recycling">Recycle/Dump Center</a></li>
-			    	<li><a href="#">Holidays</a></li>
-			    	<li><a href="#">Testimonials</a></li>
-			    	<li><a href="#">Make Payments</a></li>
+			    	<li class="{{$active_page=='holidays'?'active':''}}"><a href="{{url('/')}}/holidays">Holidays</a></li>
+			    	<li class="{{$active_page=='testimonials'?'active':''}}"><a href="{{url('/')}}/testimonials">Testimonials</a></li>
+			    	<li class="{{$active_page=='payment'?'active':''}}"><a href="{{url('/')}}/payment">Make Payments</a></li>
 			    	<li class="{{$active_page=='contact'?'active':''}}"><a href="{{url('/')}}/contact">Contact Us</a></li>
 				</ul>				
 			</div><!-- /.navbar-collapse -->

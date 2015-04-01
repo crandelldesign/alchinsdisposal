@@ -12,7 +12,7 @@
 	</div>
 	<div class="col-sm-3">
 		<a href="{{url('/')}}/contact" class="btn btn-block btn-lg btn-red">Contact Us <span class="glyphicon glyphicon-menu-right"></span></a>
-		<a href="#" class="btn btn-block btn-lg btn-black">Make a Payment <span class="glyphicon glyphicon-menu-right"></span></a>
+		<a href="{{url('/')}}/payment" class="btn btn-block btn-lg btn-black">Make a Payment <span class="glyphicon glyphicon-menu-right"></span></a>
 	</div>
 </div>
 

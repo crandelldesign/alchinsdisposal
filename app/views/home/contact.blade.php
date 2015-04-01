@@ -5,19 +5,25 @@
 
 <div class="row">
 	<div class="col-sm-6">
-		<p><strong>Alchin's Disposal, Inc.</strong></p>
+		<div itemscope itemtype="http://schema.org/Organization">
+			<div itemscope itemtype="http://schema.org/Restaurant">
+				<p><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
 
-		<p>9900 W. Grand River<br />
-		P.O. Box 950<br />
-		Fowlerville, MI 48836</p>
+				<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<span itemprop="streetAddress">9900 W. Grand River<br />
+					P.O. Box 950</span><br />
+					<span itemprop="addressLocality">Fowlerville</span>, <span itemprop="addressRegion">MI</span> <span itemprop="postalCode">48836</span>
+				</address>
 
-		<p>(517) 223-7119 (office)<br />
-		(517) 223-4103 (fax)<br />
-		Email: <a href="mailto:alchinsdisposal@sbcglobal.net">alchinsdisposal@sbcglobal.net</a></p>
+				<p><a href="tel:1-517-223-7119" itemprop="telephone" class="phone">(517) 223-7119 (office)</a><br />
+				(517) 223-4103 (fax)<br />
+				Email: <a href="mailto:alchinsdisposal@sbcglobal.net" itemprop="email">alchinsdisposal@sbcglobal.net</a></p>
 
-		<p>Our office hours are: 8:00a.m.- 5:00p.m., Monday- Friday</p>
+				<p><meta itemprop="openingHours" content="Mo-Fr 8:00-17:00">Our office hours are: 8:00a.m.- 5:00p.m., Monday - Friday</p>
 
-		<p>Our office is closed 12:00p.m. – 1:00p.m. for lunch, Monday – Friday.</p>
+				<p>Our office is closed 12:00p.m. – 1:00p.m. for lunch, Monday – Friday.</p>
+			</div>
+		</div>
 
 		<p>We strongly encourage our customers to contact us with comments and feedback.
 		We are always looking for ways to improve our customer service, as well as our
