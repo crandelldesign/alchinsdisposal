@@ -222,6 +222,9 @@ a:hover, a:focus, .btn:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+.table th {
+	color: #9e2a2e;
+}
 .margin-bottom-20 {
 	margin-bottom: 20px;
 }

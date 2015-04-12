@@ -7,7 +7,7 @@
 	<div class="col-sm-6">
 		<div itemscope itemtype="http://schema.org/Organization">
 			<div itemscope itemtype="http://schema.org/Restaurant">
-				<p><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
+				<p class="alchin-red"><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
 
 				<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					<span itemprop="streetAddress">9900 W. Grand River<br />

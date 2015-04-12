@@ -167,8 +167,8 @@ Construction Material - $25.00 per yard</p>
   <td>$5.00 </td>
  </tr>
  <tr>
-  <td>Television 25&quot; console or larger</td>
-  <td>$10.00 - 15.00</td>
+  <td>Television 25&quot; or larger</td>
+  <td>Price will be given at the office.</td>
  </tr>
  <tr>
   <td>Mattress (King, Queen, Full)</td>

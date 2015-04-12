@@ -66,4 +66,11 @@
     <li>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</li>
 </ul>
 
+<p>Alchin's Disposal is not responsible for lost, stolen or damaged refuse receptacles that are not the property of Alchin's Disposal.</p>
+
+<h3>Late Set Outs and Missed Stop Policy</h3>
+
+<p>If a stop is determined to have been missed due to driver error, we will only be able to return for pick up if the miss is reported to the office by calling 517-223-7119 within 24 hours. Please allow until the end of the next business day for the issue to be corrected, and your refuse to be picked up.</p>
+<p>If a stop is determined to have not been out at the time the driver is at the residence, we will not return to pick up the refuse.</p>
+
 @stop

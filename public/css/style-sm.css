@@ -58,5 +58,8 @@ body {
 }
 
 /* Page Styles */
+.table th {
+	font-size: 18px;
+}
 
 /* Commercial */
