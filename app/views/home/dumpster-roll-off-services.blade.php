@@ -1,7 +1,7 @@
 @extends('home.templates.master')
 @section('body')
 
-<h1>Clean-Up Services</h1>
+<h1>Dumpster/Roll-Off Services</h1>
 
 <ul class="list-inline center-block margin-bottom-20 clean-up-steps">
 	<li>1. Cluttered Garage/Room?<br>
@@ -72,7 +72,7 @@ RATES ARE SUBJECT TO CHANGE WITHOUT NOTIFICATION</strong></p>
 
 <p><strong class="alchin-blue">ITEMS NOT TAKEN:</strong> Yard Waste, Concrete, Fencing, Gas/Oil Cans, Trees or Branches, Cinder Block, Tires, Appliances w/Freon, Dirt or Rocks, Railroad Ties, Steel (over 4'), Animal Carcasses, Auto or Truck Batteries, Oil Based Paint (Latex and/or Water Based Paint is allowed – paint MUST BE dried and cracked and the lids removed from the can).</p>
 
-<h2>Residential Clean-Ups</h2>
-<p>Another service we provide is residential clean-ups. When all items are in one area (outside of home or garage), please contact our office to schedule an estimate, which is free of charge. When the estimate is complete, a copy will be left at your home. If you wish to have the clean-up done, contact the office to make arrangements for payment and to schedule a day for the clean-up. Estimates are done on Tuesdays and Thursdays.</p>
+<?php /*<h2>Residential Clean-Ups</h2>
+<p>Another service we provide is residential clean-ups. When all items are in one area (outside of home or garage), please contact our office to schedule an estimate, which is free of charge. When the estimate is complete, a copy will be left at your home. If you wish to have the clean-up done, contact the office to make arrangements for payment and to schedule a day for the clean-up. Estimates are done on Tuesdays and Thursdays.</p>*/ ?>
 
 @stop

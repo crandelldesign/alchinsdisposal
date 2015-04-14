@@ -66,7 +66,7 @@
     <li>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</li>
 </ul>
 
-<p>Alchin's Disposal is not responsible for lost, stolen or damaged refuse receptacles that are not the property of Alchin's Disposal.</p>
+<p class="h4 alchin-red">Alchin's Disposal is not responsible for lost, stolen or damaged refuse receptacles that are not the property of Alchin's Disposal.</p>
 
 <h3>Late Set Outs and Missed Stop Policy</h3>
 

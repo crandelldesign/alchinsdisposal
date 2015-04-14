@@ -44,8 +44,14 @@ body {
 }
 .navbar .nav li a {
 	padding: 15px 10px;
-	margin: 0 5px;
-	font-size: 15px;
+	margin: 0 0;
+	font-size: 14px;
+}
+.navbar .nav li:first-child a {
+	margin-left: 0;
+}
+.navbar .nav li:last-child a {
+	margin-right: 0;
 }
 
 /* Content */

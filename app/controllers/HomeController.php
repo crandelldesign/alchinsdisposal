@@ -19,7 +19,8 @@ class HomeController extends BaseController {
 	{
 		$vw = View::make('home.index');
 		$vw->title = "Alchin's Disposal, Inc | Residential and Commercial Garbage Removal in Livingston County";
-        $vw->description = "Alchin's Disposal, Inc";
+        $vw->description = "Alchin's Disposal, Inc operates with 11 trucks and over 10,500 residential and commercial customers in not only Livingston County, but in the surrounding area as well.";
+        $vw->active_page = "home";
 
         return $vw;
 	}
@@ -28,7 +29,7 @@ class HomeController extends BaseController {
 	{
 		$vw = View::make('home.residential');
 		$vw->title = "Residential Customers | Alchin's Disposal, Inc ";
-        $vw->description = "Alchin's Disposal, Inc";
+        $vw->description = "Residential serves offered at Alchin's Disposal, Inc";
         $vw->active_page = "residential";
 
         return $vw;
@@ -38,18 +39,18 @@ class HomeController extends BaseController {
 	{
 		$vw = View::make('home.commercial');
 		$vw->title = "Commercial Customers | Alchin's Disposal, Inc ";
-        $vw->description = "Alchin's Disposal, Inc";
+        $vw->description = "Commercial services offered at Alchin's Disposal, Inc";
         $vw->active_page = "commercial";
 
         return $vw;
 	}
 
-	public function getCleanUpServices()
+	public function getDumpsterRollOff()
 	{
-		$vw = View::make('home.clean-up-services');
-		$vw->title = "Clean Up Services | Alchin's Disposal, Inc ";
-        $vw->description = "Alchin's Disposal, Inc";
-        $vw->active_page = "clean-up-services";
+		$vw = View::make('home.dumpster-roll-off-services');
+		$vw->title = "Dumpster/Roll-Off Services | Alchin's Disposal, Inc ";
+        $vw->description = "Cluttered Garage or Room? Get a dumpster from Alchin's Disposal, Inc and clean up that mess.";
+        $vw->active_page = "dumpster-roll-off-services";
 
         return $vw;
 	}

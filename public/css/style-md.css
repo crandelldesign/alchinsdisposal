@@ -3,6 +3,12 @@
 /* Header */
 .navbar .nav li a {
 	padding: 15px 12px;
-	margin: 0 10px;
-	font-size: 16px;
+	margin: 0 5px;
+	font-size: 15px;
+}
+.navbar .nav li:first-child a {
+	margin-left: 0;
+}
+.navbar .nav li:last-child a {
+	margin-right: 0;
 }
