@@ -23,7 +23,7 @@
 			    	<li class="{{$active_page=='home'?'active':''}}"><a href="{{url('/')}}">Home</a></li>
 			    	<li class="{{$active_page=='residential'?'active':''}}"><a href="{{url('/')}}/residential">Residential</a></li>
 			    	<li class="{{$active_page=='commercial'?'active':''}}"><a href="{{url('/')}}/commercial">Commercial</a></li>
-			    	<li class="{{$active_page=='clean-up-services'?'active':''}}"><a href="{{url('/')}}/dumpster-roll-off">Dumpster/Roll-Off Services</a></li>
+			    	<li class="{{$active_page=='dumpster-roll-off-services'?'active':''}}"><a href="{{url('/')}}/dumpster-roll-off">Dumpster/Roll-Off Services</a></li>
 			    	<li class="{{$active_page=='recycling'?'active':''}}"><a href="{{url('/')}}/recycling">Recycle/Dump Center</a></li>
 			    	<li class="{{$active_page=='holidays'?'active':''}}"><a href="{{url('/')}}/holidays">Holidays</a></li>
 			    	<li class="{{$active_page=='testimonials'?'active':''}}"><a href="{{url('/')}}/testimonials">Testimonials</a></li>
