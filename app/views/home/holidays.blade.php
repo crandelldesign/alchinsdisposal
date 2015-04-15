@@ -6,7 +6,7 @@
 <p>Alchin's Disposal observes the following holidays:</p>
 
 <ul>
-	<li>New Years's Day</li>
+	<li>New Year's Day</li>
 	<li>Memorial Day</li>
 	<li>Independence Day (4th of July)</li>
 	<li>Labor Day</li>
