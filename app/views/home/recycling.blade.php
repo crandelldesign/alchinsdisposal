@@ -1,7 +1,7 @@
 @extends('home.templates.master')
 @section('body')
 
-<h1>Recycle/Dump Center</h1>
+<h1>Recycle Center</h1>
 
 <p class="text-center"><strong>Hours: Mon-Fri 8:30am-4:30pm</strong></p>
 
