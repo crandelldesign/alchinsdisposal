@@ -163,11 +163,11 @@ Construction Material - $25.00 per yard</p>
   <td>$5.00 </td>
  </tr>
  <tr>
-  <td>Television up to 25&quot;</td>
+  <td>Television up to 20&quot;</td>
   <td>$5.00 </td>
  </tr>
  <tr>
-  <td>Television 25&quot; or larger</td>
+  <td>Television 21&quot; or larger</td>
   <td>Price will be given at the office.</td>
  </tr>
  <tr>
