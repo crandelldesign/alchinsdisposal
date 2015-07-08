@@ -86,13 +86,12 @@ Construction Material - $25.00 per yard</p>
 
 <table class="table">
 <tr>
-  <td>Freezers (upright
-  or chest size)</td>
-  <td>$20.00 - 40.00</td>
+  <td>Freezers (upright or chest size)</td>
+  <td>$20.00 - 40.00 (No Freon)</td>
  </tr>
  <tr>
   <td>Refrigerators</td>
-  <td>$20.00 - 40.00</td>
+  <td>$20.00 - 40.00 (No Freon)</td>
  </tr>
  <tr>
   <td>Stove or Oven</td>
