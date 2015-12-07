@@ -3,6 +3,36 @@
 
 <h1>Testimonials</h1>
 
+<p>To Whom It May Concern:</p>
+<p>My Name is Adrea E.I am writing this letter to express how much I appreciate your employee's service. I can tell he takes his job seriously and cares about others.</p>
+<p>I was very impressed when... I was running late, an employee of yours did something unexpected. I was halfway down my driveway when I noticed the garbage truck was approaching my house. Expecting it to pass... the truck stopped, your employee jumped out and he ran up the drive to meet me. I thanked him several times before he was gone. I had another experience this past winter... I was again halfway down my driveway... the kind man backed his truck into our driveway to collect the trash.</p>
+<p>I just wanted to let you know how much I appreciate your service and generosity. In today's society customer service isn't always a priority. Thank you and keep up the good work.</p>
+<p>Sincerely,</p>
+<h4>Adrea E.<br>
+	<small>Howell, MI</small></h4>
+
+<hr>
+
+<p>To Whom It May Concern:</p>
+<p>These days it seems that praise is few and far between for those who work their a$$es off and do a great job. Screw up once and the customer makes sure everybody, including other customers, know about it. I know I run a business too.</p>
+<p>I was running late getting home from work last Thursday... So I'm approaching my driveway and the big Alchin truck has my driveway blocked while they are loading my neighbor's garbage. I have just enough room to get in my driveway and I hit my brakes, looked back and stopped my truck. I was going to see if maybe they could wait just long enough... nah, these guys are pretty quick... I roll 10 more feet and they're still there... I opened my door and asked if they could just give me a minute to get my garbage to the road.</p>
+<p>I have had both of my hips replaced... The man that loads the truck must have noticed me struggling with both cans, he came up the driveway and grabbed the wheel-less can and took it back to the truck while I wheeled the other the rest of the way.</p>
+<p>Now, to the whole point of my little note; you just don't see that kind of customer care anymore. That was the little extra measure taken by your employees that really struck me. What a nice bunch of folks you have working for you. I discussed this with the wife and we both agree on one thing. Those guys didn't have to wait, nor did they have to help me drag those cans. But they did and we really appreciate that help. Please let their boss and coworkers know how much we appreciate their help and kindness.</p>
+<p>Sincerely,</p>
+<h4>Rick and Debbie C.<br>
+	<small>Fowlerville, MI </small></h4>
+
+<hr>
+
+<p>Dear Alchin's Disposal:</p>
+<p>We switched to your service over one year ago and have to tell you what a great job you have done. NOT ONCE in over a year did you miss a pick-up. This is a big change for us. We realize mistakes are made and do not demand perfection, however, perfection is what we have received. Your service is far &quot;superior&quot; to our previous provider. It is a relief to not have to wonder if our weekly pick-up will be made.</p>
+<p>Your reliability is very much appreciated.</p>
+<p>Sincerely,</p>
+<h4>Mike &amp; Debi V.<br>
+	<small>Pinckney, MI</small></h4>
+
+<hr>
+
 <p>Alchin's Disposal-Steve, Larry, Judy & Kelly. Your thoughtfulness means so much-more than words can ever say. Just wanted to thank you for putting the carts back on the curb, its real nice. Glad you are now our garbage pick up.</p>
 <p>Thanks again,</p>
 <h4>Lillian R.</h4>
