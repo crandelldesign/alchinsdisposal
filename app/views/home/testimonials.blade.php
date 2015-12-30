@@ -3,6 +3,13 @@
 
 <h1>Testimonials</h1>
 
+<p>Dear Alchin's,</p>
+<p>I just wanted to let you know that I received your letter for an increase in our billing cycle. I’m so glad that you sent the letter so that I could tell you what an awesome crew you employ! The guys that pick up my garbage, I can always calculate the exact time they will arrive whether large amounts of snow, or sleet, or rain (they are better than the postal office). These guys always put my trash can right back at the curb, I have absolutely no complaints for a raise and would like to acknowledge what a class A job your company does.</p>
+<p>Sincerely,</p>
+<h4>Jill R.</h4>
+
+<hr>
+
 <p>To Whom It May Concern:</p>
 <p>My Name is Adrea E.I am writing this letter to express how much I appreciate your employee's service. I can tell he takes his job seriously and cares about others.</p>
 <p>I was very impressed when... I was running late, an employee of yours did something unexpected. I was halfway down my driveway when I noticed the garbage truck was approaching my house. Expecting it to pass... the truck stopped, your employee jumped out and he ran up the drive to meet me. I thanked him several times before he was gone. I had another experience this past winter... I was again halfway down my driveway... the kind man backed his truck into our driveway to collect the trash.</p>

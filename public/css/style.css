@@ -243,6 +243,57 @@ a:hover, a:focus, .btn:hover {
 	-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
+.ribbon-container {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+.ribbon {
+	font-size: 16px !important;
+	/* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+	position: relative;
+	background: #2a689e;
+	color: #fff;
+	text-align: center;
+	padding: 1em 2em; /* Adjust to suit */
+	margin: 0 auto;
+	width: 80%;
+}
+.ribbon:before, .ribbon:after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: -1em;
+	border: 1.5em solid #255886;
+	z-index: -1;
+}
+.ribbon:before {
+	left: -2em;
+	border-right-width: 1.5em;
+	border-left-color: transparent;
+}
+.ribbon:after {
+	right: -2em;
+	border-left-width: 1.5em;
+	border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	content: "";
+	position: absolute;
+	display: block;
+	border-style: solid;
+	border-color: #1d466a transparent transparent transparent;
+	bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+
 /* Clean-Up Services */
 .clean-up-steps {
 	text-align: center;

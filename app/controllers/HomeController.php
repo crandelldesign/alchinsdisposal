@@ -58,9 +58,19 @@ class HomeController extends BaseController {
 	public function getRecycling()
 	{
 		$vw = View::make('home.recycling');
-		$vw->title = "Recycle and Dump Center | Alchin's Disposal, Inc";
-        $vw->description = "Recycle and Dump Center at Alchin's Disposal, Inc";
+		$vw->title = "Recycle Center | Alchin's Disposal, Inc";
+        $vw->description = "Recycle Center at Alchin's Disposal, Inc";
         $vw->active_page = "recycling";
+
+        return $vw;
+	}
+
+	public function getDumpCenter()
+	{
+		$vw = View::make('home.dump-center');
+		$vw->title = "Dump Center | Alchin's Disposal, Inc";
+        $vw->description = "Dump Center at Alchin's Disposal, Inc";
+        $vw->active_page = "dump-center";
 
         return $vw;
 	}
