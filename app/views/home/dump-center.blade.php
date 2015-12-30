@@ -10,7 +10,6 @@
 <h3>PRICING PER YARD</h3>
 
 <p>Household Waste - $20.00 per yard<br />
-Yard Waste - $20.00 per yard (Minimum Amount)<br />
 Construction Material - $25.00 per yard</p>
 
 <p>Construction Material Accepted: Shingles, Steel, Carpeting, Flooring, Drywall</p>
