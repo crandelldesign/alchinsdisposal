@@ -3,8 +3,20 @@
 
 <h1>Testimonials</h1>
 
+<p>Good Morning. I would really like to give a shout out to our route driver...our pick up days are Tuesday...I never put our cart out on Monday because the wind likes to blow it over...and I am horrible at remembering to take it out Tuesday morning...our route driver went above and beyond yesterday..seeing that I had once again forgot to take it out and needed to be emptied...my daughter said he walked up and grabbed the cart for me! I just really wanted to thank him for watching out for us...makes us feel great knowing that!</p>
+<p>Thank you,</p>
+<h4>Zoanna F.</h4>
+
+<hr>
+
+<p>This is a first for me, usually an email to our trash service isn't a pleasant one, but this one is.</p>
+<p>A few months back we changed service from Duncan, for several reasons. We are very satisfied with your service. Not only is our trash picked up on the day it's supposed to be, but your driver neatly places our trash can back and even turns the handles toward the house. Which says to me he cares about the work he does. Thanks for the great service.</p>
+<h4>Jason and Leah S.</h4>
+
+<hr>
+
 <p>Dear Alchin's,</p>
-<p>I just wanted to let you know that I received your letter for an increase in our billing cycle. I’m so glad that you sent the letter so that I could tell you what an awesome crew you employ! The guys that pick up my garbage, I can always calculate the exact time they will arrive whether large amounts of snow, or sleet, or rain (they are better than the postal office). These guys always put my trash can right back at the curb, I have absolutely no complaints for a raise and would like to acknowledge what a class A job your company does.</p>
+<p>I just wanted to let you know that I received your letter for an increase in our billing cycle. I'm so glad that you sent the letter so that I could tell you what an awesome crew you employ! The guys that pick up my garbage, I can always calculate the exact time they will arrive whether large amounts of snow, or sleet, or rain (they are better than the postal office). These guys always put my trash can right back at the curb, I have absolutely no complaints for a raise and would like to acknowledge what a class A job your company does.</p>
 <p>Sincerely,</p>
 <h4>Jill R.</h4>
 
