@@ -3,6 +3,15 @@
 
 <h1>Testimonials</h1>
 
+<p>Hello,</p>
+<p>I just wanted to inform management or the appropriate person of my experience with your company today. My husband took our trash cans to the road last night. Upon leaving my driveway this morning, I observed a HUGE amount of garbage had been scattered everywhere by a raccoon overnight. There was no time for me to stop to clean it up, as I had to take my daughter to an important appointment. So, I begrudgingly resigned myself 
+to knowing that I would have a major mess to clean up when I go back home. When I pulled into the driveway late morning I was elated and shocked! Every bit of garbage was picked up and taken away!! Unbelievable that whoever did my route did all of that! I appreciate it so much and am still in disbelief. Incredible service today and went above and beyond what I expected.<p>
+<p>Regards,</p>
+<h4>Elaine C.<br>
+    <small>Howell, MI</small></h4>
+
+<hr>
+
 <p>Good Morning. I would really like to give a shout out to our route driver...our pick up days are Tuesday...I never put our cart out on Monday because the wind likes to blow it over...and I am horrible at remembering to take it out Tuesday morning...our route driver went above and beyond yesterday..seeing that I had once again forgot to take it out and needed to be emptied...my daughter said he walked up and grabbed the cart for me! I just really wanted to thank him for watching out for us...makes us feel great knowing that!</p>
 <p>Thank you,</p>
 <h4>Zoanna F.</h4>
