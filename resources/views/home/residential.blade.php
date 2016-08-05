@@ -39,12 +39,12 @@
         <ul>
             <li>Weekly Service: $13.00 per month</li>
         </ul></li>
-   	<li><strong>With a 96 gallon curb-cart</strong>
+   	<!--<li><strong>With a 96 gallon curb-cart</strong>
 		<ul>
         	<li>Weekly Service: $19.75 per month</li>
-            <!--<li>Every Other Week Service: $9.00 per month</li>-->
-            <!--<li>Once a Month Service: $6.00 per month</li>-->
-        </ul></li>
+            <li>Every Other Week Service: $9.00 per month</li>
+            <li>Once a Month Service: $6.00 per month</li>
+        </ul></li>-->
 </ul>
 
 <p>RATE CHANGE EFFECTIVE MARCH 1, 2015</p>

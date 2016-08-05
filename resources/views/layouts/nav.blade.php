@@ -3,7 +3,7 @@
 @endif
 <header class="header">
 	<div class="container-fluid">
-		<a href="{{url('/')}}"><img alt="Alchin's Disposal" class="header-img img-responsive" src="{{url('/')}}/img/alchins-disposal-logo.png"></a>
+		<a href="{{url('/')}}"><img alt="Alchin's Disposal" class="header-img img-responsive" src="{{url('/')}}/img/alchins-disposal-logo.svg" width="478" height="150"></a>
 		<div class="clearfix visible-xs-block border-top"></div>
 		<a href="tel:1-517-223-7119" class="phone-link btn btn-white"><span class="glyphicon glyphicon-earphone"></span> 517.223.7119</a>
 		<button type="button" class="btn navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
