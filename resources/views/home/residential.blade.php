@@ -8,7 +8,7 @@
 
 <h3>Our Rates</h3>
 <ul>
-	<li><strong>Without a 96 gallon curb-cart</strong>
+	<li><strong>Without a 65 gallon curb-cart</strong>
     	<ul>
         	<li>Weekly Service: $17.75 per month</li>
             <!--<li>Every Other Week Service: $11.25 a month</li>-->
@@ -56,7 +56,7 @@
 <p class="h2 text-center">WE WILL BEAT ALL COMPETITORS' RATES!<br />
 	(FIRST TIME CUSTOMERS ONLY)<br />
     <small>(Some restrictions apply)</small></p>
-    
+
 <h3>Trash Limit</h3>
 
 <ul>
