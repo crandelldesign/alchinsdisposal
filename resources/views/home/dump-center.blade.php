@@ -8,6 +8,7 @@
     Construction Material - $25.00 per yard
 </p>
 <p>Construction Material Accepted: Shingles, Steel, Carpeting, Flooring, Drywall</p>
+<p>We accept pick-up truck loads and trailers up to 5’ x 10’. An appointment must be scheduled for trailers over this size and are subject to refusal.</p>
 <table class="table">
     <tr>
         <td>Freezers (upright or chest size)</td>
