@@ -8,7 +8,7 @@
 
 <h3>Our Rates</h3>
 <ul>
-	<li><strong>Without a 65 gallon curb-cart</strong>
+	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
         	<li>Weekly Service: $17.75 per month</li>
             <!--<li>Every Other Week Service: $11.25 a month</li>-->
@@ -29,7 +29,7 @@
 <p class="h3">We offer a senior citizen rate (55 years of age or older)<br>
 <small>Note: Proof of Age Required</small></p>
 <ul>
-	<li><strong>Without a 96 gallon curb-cart</strong>
+	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
         	<li>Weekly Service: $11.00 per month</li>
             <!--<li>Every Other Week Service: $7.00 per month</li>-->

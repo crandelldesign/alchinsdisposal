@@ -47,10 +47,6 @@ STYROFOAM MUST BE PLACED IN THE MISCELLANEOUS CONTAINER</li>
 			<li>ALL FOOD PACKAGES ARE CONSIDERED BOXBOARD/GLOSSY CARDBOARD!!<br />
 PLEASE BREAK DOWN ALL BOXES!!</li>
 		</ul></li>
-	<li>Newspaper – Newspaper and Sunday ads.
-		<ul>
-			<li>NO BROWN BAGS, <!--PLASTIC BAGS, -->TIE WRAPS OR HOUSEHOLD MAIL</li>
-		</ul></li>
 	<!--<li>Miscellaneous – Glossy magazines and catalogs, plastic bags, office paper and Styrofoam. Example: Tissue and paper towel rolls, Time, People, JC Penney, Lands End.
 		<ul>
 			<li>PLEASE BREAK DOWN ALL MATERIAL!!</li>
