@@ -1,0 +1,102 @@
+// Header
+.header {
+    background: $alchin-green;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .container-fluid {
+        @media (min-width: 768px) {
+            max-width: 1275px;
+            position: relative;
+        }
+    }
+    .header-img {
+        max-height: 150px;
+        width: auto;
+        margin: 10px 0;
+        @media (min-width: 768px) {
+            margin: 20px 0;
+        }
+    }
+    .navbar-toggle {
+        float: right;
+        font-size: 18px;
+        margin: 0;
+        padding: 7px 12px;
+        &:hover, &:focus {
+            background: none;
+            box-shadow: none;
+            border: 1px solid #FFF;
+        }
+        &.pull-left {
+            margin-right: 5px;
+            margin-top: -1px;
+            text-shadow: none;
+            color: #FFF;
+        }
+        &.pull-right {
+            margin-top: 5px;
+        }
+        &.icon-bar {
+            background-color: #FFF;
+        }
+    }
+}
+.header a.phone-link {
+    background-color: #FFF;
+    color: $alchin-green;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+    width: 60%;
+    border-color: #FFF;
+    @media (min-width: 768px) {
+        position: absolute;
+        top: 67px;
+        right: 15px;
+        font-size: 30px;
+        float: none;
+        width: auto;
+    }
+    &:hover {
+        /*text-decoration: none;*/
+        background-color: $alchin-green;
+        color: #FFF;
+        @media (min-width: 768px) {
+            background-color: #FFF;
+            color: $alchin-green;
+        }
+    }
+}
+.header .border-top {
+    border-top: 1px solid #FFF;
+    margin: 0 -15px 10px -15px;
+}
+.header .navbar {
+    background: none;
+    border: 0;
+    /*border-top: 1px solid #FFF;*/
+    border-radius: 0;
+    margin-bottom: 25px;
+    min-height: 0;
+}
+.navbar .navbar-brand {
+    display: none;
+}
+.navbar .navbar-collapse {
+    border-color: #FFF;
+}
+.navbar .nav li a {
+    color: #FFF;
+}
+.navbar .nav li.active a {
+    color: $alchin-green;
+    background: #FFF;
+}
+.navbar .nav li a:hover,
+.navbar .nav li.active a:hover {
+    color: $alchin-green;
+    background: #FFF;
+}

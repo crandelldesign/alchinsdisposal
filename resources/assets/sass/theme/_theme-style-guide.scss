@@ -1,0 +1,40 @@
+// Color Swatches
+.color-swatch {
+    height: 100px;
+    @include shadow-3();
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 5px solid #FFF;
+    color: #FFF;
+    background-color: #eee;
+    &.swatch1 {
+        background-color: $alchin-green;
+    }
+    &.swatch2 {
+        background-color: $alchin-green-light;
+    }
+    &.swatch3 {
+        background-color: $alchin-green-dark;
+    }
+    &.swatch4 {
+        background-color: $alchin-purple;
+    }
+    &.swatch5 {
+        background-color: $alchin-purple-light;
+    }
+    &.swatch6 {
+        background-color: $alchin-purple-dark;
+    }
+    &.swatch7 {
+        background-color: $alchin-blue;
+    }
+    &.swatch8 {
+        background-color: $alchin-blue-light;
+    }
+    &.swatch9 {
+        background-color: $alchin-blue-dark;
+    }
+}
+.details {
+    color: $text-muted;
+}

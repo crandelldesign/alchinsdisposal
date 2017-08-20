@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<link rel="stylesheet" type="text/css" href="{{ url('/css/stylesheet.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ mix('/css/theme.css') }}" />
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,6 +15,7 @@
     </style>
 <![endif]-->
 
+@if (\App::environment('production'))
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,3 +26,4 @@
 	ga('send', 'pageview');
 
 </script>
+@endif

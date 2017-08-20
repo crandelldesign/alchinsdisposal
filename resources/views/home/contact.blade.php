@@ -34,8 +34,107 @@
 	</div>
 
 	<div class="col-sm-6">
-		<iframe width="470" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=alchin's&amp;aq=&amp;sll=42.663685,-84.110202&amp;sspn=0.005073,0.009645&amp;vpsrc=6&amp;gl=us&amp;g=9900+W.+Grand+River+PO.+Box+950+Fowlerville,+MI+48836&amp;ie=UTF8&amp;t=m&amp;cid=540654102314289719&amp;hq=alchin's&amp;hnear=&amp;ll=42.673033,-84.113045&amp;spn=0.022087,0.04034&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=alchin's&amp;aq=&amp;sll=42.663685,-84.110202&amp;sspn=0.005073,0.009645&amp;vpsrc=6&amp;gl=us&amp;g=9900+W.+Grand+River+PO.+Box+950+Fowlerville,+MI+48836&amp;ie=UTF8&amp;t=m&amp;cid=540654102314289719&amp;hq=alchin's&amp;hnear=&amp;ll=42.673033,-84.113045&amp;spn=0.022087,0.04034&amp;z=14&amp;iwloc=A">View Larger Map</a></small>
+
+		<form id="contact-form" class="form" action="{{url('/contact')}}#contact-form" method="post" autocomplete="off">
+            @if (session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
+            @if (count($errors) > 0)
+                <div class="alert alert-danger">Please correct the errors in red below.</div>
+                @foreach ($errors->get('honeyName') as $error)
+                    <div class="alert alert-danger">{{ $error }}</div>
+                @endforeach
+            @endif
+            <div class="form-group form-group-sm {{($errors->has('name'))?'has-error':''}}">
+                <label class="control-label" for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="{{old('name')}}">
+                @foreach ($errors->get('name') as $error)
+                    <div class="help-block with-errors">{{ $error }}</div>
+                @endforeach
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group form-group-sm {{($errors->has('email'))?'has-error':''}}">
+                        <label class="control-label" for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="{{old('email')}}">
+                        @foreach ($errors->get('email') as $error)
+                            <div class="help-block with-errors">{{ $error }}</div>
+                        @endforeach
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-group-sm {{($errors->has('phone'))?'has-error':''}}">
+                        <label class="control-label" for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" value="{{old('phone')}}">
+                        @foreach ($errors->get('phone') as $error)
+                            <div class="help-block with-errors">{{ $error }}</div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group form-group-sm {{($errors->has('message'))?'has-error':''}}">
+                <label class="control-label" for="message">Message</label>
+                <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message">{{old('message')}}</textarea>
+                @foreach ($errors->get('message') as $error)
+                    <div class="help-block with-errors">{{ $error }}</div>
+                @endforeach
+            </div>
+            <!-- <?php /* <div class="form-group form-group-sm {{(count($errors) > 0 && $errors->first('g-recaptcha-response'))?'has-error':''}}">
+                <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITEKEY') }}"></div>
+                @foreach ($errors->get('g-recaptcha-response') as $error)
+                    <div class="help-block with-errors">{{ $error }}</div>
+                @endforeach
+                @foreach ($errors->get('recaptcha') as $error)
+                    <div class="help-block with-errors">{{ $error }}</div>
+                @endforeach
+            </div> */ ?> -->
+            <input type="text" name="honeyName" style="display: none">
+            {{ csrf_field() }}
+            <div class="form-group form-group-submit">
+                <button type="submit" class="btn btn-submit btn-green">Send</button>
+            </div>
+        </form>
 	</div>
 </div>
 
+@stop
+
+@section('map')
+	<div id="map"></div>
+@stop
+
+@section('scripts')
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeIBiIKGbWrvKjSeJswXz2ZmmzPDK-Vow&libraries=places&callback=initMap"></script>
+<script>
+	function initMap() {
+	    var location = {lat: 42.664084, lng: -84.110577};
+	    var map = new google.maps.Map(document.getElementById('map'), {
+	        zoom: 13,
+	        center: location,
+	        scrollwheel: false,
+	        });
+	    var infowindow = new google.maps.InfoWindow();
+	    var service = new google.maps.places.PlacesService(map);
+
+	    service.getDetails({
+	      placeId: 'ChIJfz6nHzAjI4gRNwrNogrKgAc'
+	    }, function(place, status) {
+	      if (status === google.maps.places.PlacesServiceStatus.OK) {
+	        var marker = new google.maps.Marker({
+	          map: map,
+	          position: place.geometry.location
+	        });
+	        google.maps.event.addListener(marker, 'click', function() {
+	            infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
+	            place.formatted_address + '<br>'+
+	            '<a href="'+place.url+'" target="_blank">View on Google Maps</a>'+'</div>');
+	            infowindow.open(map, this);
+	        });
+	      }
+	    });
+	}
+</script>
 @stop

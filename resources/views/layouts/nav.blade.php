@@ -30,9 +30,8 @@
 			    	--><li class="{{$active_page=='testimonials'?'active':''}}"><a href="{{url('/')}}/testimonials">Testimonials</a></li><!--
 			    	--><li class="{{$active_page=='payment'?'active':''}}"><a href="{{url('/')}}/payment">Make Payments</a></li><!--
 			    	--><li class="{{$active_page=='contact'?'active':''}}"><a href="{{url('/')}}/contact">Contact Us</a></li>
-				</ul>				
+				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
 </header>
-<div class="page container-fluid">

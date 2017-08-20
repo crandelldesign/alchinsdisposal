@@ -18,3 +18,22 @@ $side-z2-shadow: 0 0  6px  1.5px rgba(#000, 0.16), 0 0  6px 1.5px rgba(#000, 0.2
 $side-z3-shadow: 0 0 20px    5px rgba(#000, 0.19), 0 0  6px 1.5px rgba(#000, 0.23);
 $side-z4-shadow: 0 0 28px    7px rgba(#000, 0.25), 0 0 10px 2.5px rgba(#000, 0.22);
 $side-z5-shadow: 0 0 38px  9.5px rgba(#000, 0.30), 0 0 12px   3px rgba(#000, 0.22);
+
+// Colors
+$alchin-green: #21534b;
+$alchin-green-light: lighten($alchin-green,15%);
+$alchin-green-dark: darken($alchin-green,15%);
+
+$alchin-purple: #4E2356;
+$alchin-purple-light: lighten($alchin-purple,15%);
+$alchin-purple-dark: darken($alchin-purple,15%);
+
+$alchin-blue: #283758;
+$alchin-blue-light: lighten($alchin-blue,15%);
+$alchin-blue-lighter: lighten($alchin-blue,35%);
+$alchin-blue-dark: darken($alchin-blue,15%);
+
+$link-color: $alchin-purple-light;
+$link-hover-color: $alchin-purple;
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";

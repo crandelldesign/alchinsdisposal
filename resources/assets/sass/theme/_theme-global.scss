@@ -1,0 +1,128 @@
+// Global Styles
+body {
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+}
+a:hover, a:focus, .btn:hover {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+// Typography
+h1, .h1 {
+    color: $alchin-purple;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h2, .h2 {
+    color: $alchin-blue-dark;
+    font-weight: 600;
+}
+
+// Links
+a {
+    &.hover {
+        color: $alchin-purple;
+    }
+    &.phone, &.phone:hover, .phone:focus {
+        color: #333;
+        text-decoration: none;
+    }
+}
+
+// Buttons
+.page .btn {
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 300;
+}
+.btn-green {
+    background: $alchin-green;
+    color: #FFF;
+    border-color: #333333;
+}
+.btn-green:hover {
+    background: $alchin-green-light;
+    color: #FFF;
+}
+.btn-black {
+    background: #333333;
+    color: #FFF;
+    border-color: #959595;
+}
+.btn-black:hover {
+    background: #959595;
+    border-color: #333333;
+    color: #FFF;
+}
+.btn-red {
+    background: #9e2a2e;
+    color: #FFF;
+    border-color: #333333;
+}
+.btn-red:hover {
+    background: #6f1f22;
+    color: #FFF;
+}
+.btn.btn-lg.btn-block {
+    margin-bottom: 20px;
+}
+
+// General Styles
+.alchin-green {
+    color: $alchin-green;
+}
+.alchin-purple {
+    color: $alchin-purple;
+}
+
+// Tables
+.table {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table th {
+    color: $alchin-blue;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+// Iframes
+.page iframe {
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #FFF;
+    width: 100%;
+}
+
+// Featured Image
+.featured-img {
+    border: 2px solid #FFF;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+// HR
+hr {
+    border-top: 1px solid $alchin-green;
+    width: 90%;
+}
+
+// Page
+.page {
+    min-height: 300px;
+    margin-bottom: 20px;
+}

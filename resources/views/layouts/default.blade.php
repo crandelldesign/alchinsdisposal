@@ -6,12 +6,15 @@
     </head>
     <body>
         @include('layouts.nav')
-        @yield('content')
+        <div class="page container-fluid">
+            @yield('content')
+        </div>
+        @yield('map')
         @include('layouts.footer')
 
-        <script type="text/javascript" src="{{ url('/js/default.js') }}"></script>
+        <script type="text/javascript" src="{{ mix('/js/default.js') }}"></script>
 
         @yield('scripts')
     </body>
-    
+
 </html>

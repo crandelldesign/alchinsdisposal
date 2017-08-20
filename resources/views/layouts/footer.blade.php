@@ -1,4 +1,3 @@
-</div> <!--.page-->
 <footer class="footer">
 
 	<p class="slogan text-center">&quot;Thank you for putting your trust in Alchin's!&quot;</p>

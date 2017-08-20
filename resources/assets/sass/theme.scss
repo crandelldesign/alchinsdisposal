@@ -1,0 +1,180 @@
+/*
+Theme Name: Alchin's Disposal 2016
+Author: Matt Crandell
+*/
+
+/* Variables */
+@import "variables";
+
+/* Mixins */
+@import "mixins";
+
+/* Bootstrap */
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* Font Awesome */
+@import '~font-awesome/scss/font-awesome';
+
+@import 'theme/theme-global';
+@import 'theme/theme-style-guide';
+@import 'theme/theme-header';
+@import 'theme/theme-footer';
+
+/* Page Styles */
+
+/* Home Page */
+.index-bottom {
+    text-align: center;
+}
+.index-bottom img {
+    border: 2px solid #0054A6;
+    margin-left: 5px;
+    margin-right: 5px;
+    webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.ribbon-container {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.ribbon {
+    font-size: 16px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+    position: relative;
+    background: #2a689e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 0 auto;
+    width: 80%;
+}
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #255886;
+    z-index: -1;
+}
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #1d466a transparent transparent transparent;
+    bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+/* Clean-Up Services */
+.clean-up-steps {
+    text-align: center;
+}
+.clean-up-steps li {
+    vertical-align: top;
+    font-weight: bold;
+    margin: 0 10px 5px 10px;
+}
+.clean-up-steps li img {
+    margin-top: 10px;
+}
+/* Payment */
+.payment-form {
+    max-width: 600px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header .navbar {
+        border-top: 1px solid #FFF;
+        margin-bottom: 30px;
+    }
+    .navbar .nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar .nav li {
+        float: none;
+        display: inline-block;
+    }
+    .navbar .nav li a {
+        padding: 15px 10px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .navbar .nav li:first-child a {
+        margin-left: 0;
+    }
+    .navbar .nav li:last-child a {
+        margin-right: 0;
+    }
+
+    /* Content */
+    .page {
+        max-width: 1275px;
+    }
+    .page p {
+        /*max-width: 33em;*/
+        margin-bottom: 15px;
+    }
+
+    /* Page Styles */
+    .table th {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Header */
+    .navbar .nav li a {
+        padding: 15px 12px;
+        margin: 0;
+        font-size: 15px;
+    }
+    .navbar .nav li:first-child a {
+        margin-left: 0;
+    }
+    .navbar .nav li:last-child a {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Typography */
+    h1, .h1 {
+        font-size: 32px;
+    }
+    h2, .h2 {
+        font-size: 26px;
+    }
+    h3, .h3 {
+        font-size: 22px;
+    }
+    h4, .h4 {
+        font-size: 18px;
+    }
+}
+
+#map {
+    height: 400px;
+}

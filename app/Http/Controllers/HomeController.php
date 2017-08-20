@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Mail;
+
 class HomeController extends Controller
 {
     /**
@@ -112,5 +115,46 @@ class HomeController extends Controller
         $view->active_page = "contact";
 
         return $view;
+    }
+
+    public function postContact(Request $request)
+    {
+        $validator = $this->validate(
+            $request,
+            [
+                'name' => 'required',
+                'email' => 'required',
+                'phone' => 'required',
+                'message' => 'required',
+                'honeyName' => 'size:0'
+            ],
+            [
+                'name.required' => 'Please enter your name.',
+                'email.required' => 'Please enter your email address.',
+                'phone.required' => 'Please enter your phone number.',
+                'message.required' => 'Please enter a message.',
+                'honeyName.size' => 'No spam please.'
+            ]
+        );
+
+        $data = array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'message_text' => $request->get('message'),
+        );
+
+        Mail::send('emails.contact', $data, function($message) use ($request)
+        {
+            //$message->to('alchinsdisposal@sbcglobal.net', 'Alchin\'s Disposal');
+            $message->to('matt@crandelldesign.com', 'Alchin\'s Disposal');
+            $message->bcc('matt@crandelldesign.com', 'Matt Crandell');
+            $message->replyTo($request->get('email'), $request->get('name'));
+            $message->subject('You\'ve Been Contacted by the Four Green Fields Farm Website.');
+        });
+
+        //Analytics::trackEvent('Email', 'sent', 'Email Sent', 1);
+
+        return redirect('/contact#contact-form')->with('status', 'Thank you for contacting us, we will get back to you as soon as possible.');
     }
 }
