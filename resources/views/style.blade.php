@@ -30,38 +30,38 @@
                 </div>
                 <div class="col-md-4">
                     <div class="color-swatch swatch4">
-                        Alchin Purple<br>
-                        <!--#bab9b9-->
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="color-swatch swatch5">
-                        Alchin Purple Light<br>
-                        <!--#6e6c6d-->
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="color-swatch swatch6">
-                        Alchin Purple Dark<br>
-                        <!--#bda3b2 -->
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="color-swatch swatch7">
                         Alchin Blue<br>
                         <!--#bab9b9-->
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="color-swatch swatch8">
+                    <div class="color-swatch swatch5">
                         Alchin Blue Light<br>
                         <!--#6e6c6d-->
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="color-swatch swatch9">
+                    <div class="color-swatch swatch6">
                         Alchin Blue Dark<br>
                         <!--#bda3b2 -->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch7">
+                        Alchin Bright Green<br>
+                        <!--#e6b3d1 -->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch8">
+                        Alchin Bright Green Light<br>
+                        <!--#c0408b-->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch9">
+                        Alchin Bright Green Dark<br>
+                        <!--#949293-->
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@
             <h1>Typography</h1>
 
             <h1>Heading 1</h1>
-            <p class="details">Font: Open Sans 700 / Alchin Purple</p>
+            <p class="details">Font: Open Sans 700 / Alchin Blue</p>
 
             <hr>
 

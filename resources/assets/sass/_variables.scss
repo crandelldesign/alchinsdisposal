@@ -28,12 +28,16 @@ $alchin-purple: #43045A;
 $alchin-purple-light: lighten($alchin-purple,15%);
 $alchin-purple-dark: darken($alchin-purple,15%);
 
-$alchin-blue: #08295A;
+$alchin-blue: #072E59;
 $alchin-blue-light: lighten($alchin-blue,15%);
 $alchin-blue-lighter: lighten($alchin-blue,35%);
 $alchin-blue-dark: darken($alchin-blue,15%);
 
-$link-color: $alchin-purple-light;
-$link-hover-color: $alchin-purple;
+$alchin-bright-green: #2A7700;
+$alchin-bright-green-light: lighten($alchin-bright-green,15%);
+$alchin-bright-green-dark: darken($alchin-bright-green,15%);
+
+$link-color: $alchin-bright-green;
+$link-hover-color: $alchin-bright-green-light;
 
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";

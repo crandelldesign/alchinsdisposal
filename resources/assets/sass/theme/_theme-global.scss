@@ -16,7 +16,7 @@ a:hover, a:focus, .btn:hover {
 
 // Typography
 h1, .h1 {
-    color: $alchin-purple;
+    color: $alchin-blue;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 20px;
@@ -29,7 +29,7 @@ h2, .h2 {
 // Links
 a {
     &.hover {
-        color: $alchin-purple;
+        color: $alchin-bright-green-light;
     }
     &.phone, &.phone:hover, .phone:focus {
         color: #333;
@@ -80,8 +80,8 @@ a {
 .alchin-green {
     color: $alchin-green;
 }
-.alchin-purple {
-    color: $alchin-purple;
+.alchin-blue {
+    color: $alchin-blue;
 }
 
 // Tables
