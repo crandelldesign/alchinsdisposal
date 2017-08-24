@@ -28,3 +28,9 @@ Route::get('/style', function () {
     $view->title = "Alchin's Disposal, Inc | Residential and Commercial Garbage Removal in Livingston County";
     return $view;
 });
+
+Route::get('/contact-email', function () {
+    $view = view('emails.contact');
+    $view->title = "Alchin's Disposal, Inc | Residential and Commercial Garbage Removal in Livingston County";
+    return $view;
+});

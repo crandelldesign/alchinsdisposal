@@ -121,10 +121,10 @@
         }
     </style>
 </head>
-<body class="body" style="padding:0; margin:0; display:block; background:#40588d; -webkit-text-size-adjust:none;" bgcolor="#40588d">
+<body class="body" style="padding:0; margin:0; display:block; background:#333333; -webkit-text-size-adjust:none;" bgcolor="#333333">
 <table align="center" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td align="center" valign="top" style="background-color:#40588d" width="100%">
+    <td align="center" valign="top" style="background-color:#333333" width="100%">
 
     <center>
 
@@ -136,16 +136,15 @@
           <table style="margin:0 auto;" cellspacing="0" cellpadding="0" width="100%">
             <tr>
               <td style="text-align: center; padding: 15px; background-color: #FFFFFF">
-                <!-- UPDATE THIS LOGO -->
-                <!--<a href="#"><img class="w680" width="600" height="158" src="http://crandellhosting.com/images/four-green-fields-farm-logo-email.jpg" alt="Four Green Fields Farm" /></a>-->
+                <a href="#"><img class="w680" width="200" height="158" src="http://crandellhosting.com/images/alchins-disposal-logo-email.jpg" alt="Four Green Fields Farm" /></a>
               </td>
             </tr>
           </table>
 
 
-          <table cellspacing="0" cellpadding="0" class="force-full-width" style="background-color:#005a2c; width: 100%">
+          <table cellspacing="0" cellpadding="0" class="force-full-width" style="background-color:#005A3F; width: 100%">
             <tr>
-              <td style="background-color:#005a2c;">
+              <td style="background-color:#005A3F;">
 
                 <table cellspacing="0" cellpadding="0" class="force-full-width" style="width: 100%">
                   <tr>

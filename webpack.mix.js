@@ -16,8 +16,8 @@ mix.sass('resources/assets/sass/theme.scss', 'public/css');
 
 // Combine JS
 mix.scripts([
-    'resources/assets/vendor/js/jquery-3.1.0.min.js',
-    'resources/assets/vendor/js/bootstrap/bootstrap.js'
+    'node_modules/jquery-slim/dist/jquery.slim.js',
+    'node_modules/bootstrap-sass/assets/javascripts/bootstrap.js'
 ], 'public/js/default.js');
 
 // Version in Prod
