@@ -146,8 +146,7 @@ class HomeController extends Controller
 
         Mail::send('emails.contact', $data, function($message) use ($request)
         {
-            //$message->to('alchinsdisposal@sbcglobal.net', 'Alchin\'s Disposal');
-            $message->to('matt@crandelldesign.com', 'Alchin\'s Disposal');
+            $message->to('alchinsdisposal@sbcglobal.net', 'Alchin\'s Disposal');
             $message->bcc('matt@crandelldesign.com', 'Matt Crandell');
             $message->replyTo($request->get('email'), $request->get('name'));
             $message->subject('You\'ve Been Contacted by the Four Green Fields Farm Website.');
