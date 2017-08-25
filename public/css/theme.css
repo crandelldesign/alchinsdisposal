@@ -11668,11 +11668,15 @@ hr {
   }
 }
 
+.header .navbar-brand {
+  padding: 8px;
+}
+
 .header .navbar-toggle {
   float: right;
-  font-size: 18px;
-  margin: 0;
-  padding: 7px 12px;
+  font-size: 14px;
+  margin: 8px;
+  padding: 6px;
 }
 
 .header .navbar-toggle:hover,
@@ -11683,18 +11687,18 @@ hr {
   border: 1px solid #FFF;
 }
 
-.header .navbar-toggle.pull-left {
+.header .navbar-toggle > .pull-left {
   margin-right: 5px;
   margin-top: -1px;
   text-shadow: none;
   color: #FFF;
 }
 
-.header .navbar-toggle.pull-right {
-  margin-top: 5px;
+.header .navbar-toggle > .pull-right {
+  margin-top: 2px;
 }
 
-.header .navbar-toggle.icon-bar {
+.header .navbar-toggle .icon-bar {
   background-color: #FFF;
 }
 
@@ -11760,10 +11764,6 @@ hr {
 .header .border-top {
   border-top: 1px solid #FFF;
   margin: 0 -15px 10px -15px;
-}
-
-.navbar .navbar-brand {
-  display: none;
 }
 
 .navbar .navbar-collapse {

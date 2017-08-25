@@ -50,27 +50,29 @@
             margin: 20px auto;
         }
     }
-
+    .navbar-brand {
+        padding: 8px;
+    }
     .navbar-toggle {
         float: right;
-        font-size: 18px;
-        margin: 0;
-        padding: 7px 12px;
+        font-size: 14px;
+        margin: 8px;
+        padding: 6px;
         &:hover, &:focus {
             background: none;
             box-shadow: none;
             border: 1px solid #FFF;
         }
-        &.pull-left {
+        > .pull-left {
             margin-right: 5px;
             margin-top: -1px;
             text-shadow: none;
             color: #FFF;
         }
-        &.pull-right {
-            margin-top: 5px;
+        > .pull-right {
+            margin-top: 2px;
         }
-        &.icon-bar {
+        .icon-bar {
             background-color: #FFF;
         }
     }
@@ -126,9 +128,6 @@
 .header .border-top {
     border-top: 1px solid #FFF;
     margin: 0 -15px 10px -15px;
-}
-.navbar .navbar-brand {
-    display: none;
 }
 .navbar .navbar-collapse {
     border-color: #FFF;
