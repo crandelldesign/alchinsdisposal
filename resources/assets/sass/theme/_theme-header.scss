@@ -1,10 +1,32 @@
 // Header
 .header {
-    background: $alchin-green;
+    background: #FFF;
     margin-bottom: 30px;
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .header-top {
+        background-color: $alchin-green-light;
+        > .container-fluid {
+            max-width: 1275px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: center;
+            color: #FFF;
+            @media (min-width: 768px) {
+                text-align: right;
+            }
+            > span {
+                @media (min-width: 768px) {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+            a {
+                color: #FFF;
+            }
+        }
+    }
     > .container-fluid {
 
         @media (min-width: 768px) {
@@ -29,8 +51,19 @@
             margin-bottom: 15px;
             display: flex;
             align-items: flex-end;
+            flex-wrap: wrap;
             > div {
                 float: none;
+                font-size: 20px;
+                font-weight: 600;
+                color: $alchin-green;
+                @media (min-width: 768px) {
+                    font-size: 30px;
+                }
+                a, a:hover {
+                    color: $alchin-green;
+                    text-decoration: none;
+                }
             }
             .address {
                 color: #FFF;
@@ -45,18 +78,21 @@
         //max-height: 150px;
         max-width: 250px;
         width: auto;
-        margin: 10px auto;
+        margin: 0px auto;
         @media (min-width: 768px) {
-            margin: 20px auto;
+            //margin: 20px auto;
         }
     }
     .navbar-brand {
-        padding: 8px;
+        //padding: 8px;
+        a {
+            color: #FFF;
+        }
     }
     .navbar-toggle {
         float: right;
         font-size: 14px;
-        margin: 8px;
+        //margin: 8px;
         padding: 6px;
         &:hover, &:focus {
             background: none;
@@ -77,51 +113,30 @@
         }
     }
     .navbar {
-        background: none;
+        background: $alchin-green;
         border: 0;
-        border-top: 1px solid #FFF;
+        //border-top: 1px solid #FFF;
         border-radius: 0;
         margin-bottom: 0;
         min-height: 0;
         display: flex;
         justify-content: center;
         text-align: center;
-        margin: 0 -25px;
+        margin: 0;
         @media (min-width: 768px) {
             /*position: absolute;
             bottom: 0;*/
+        }
+        > .container-fluid {
+            width: 100%;
+            @media (min-width: 768px) {
+                width: auto;
+            }
         }
         .nav li a {
             color: #FFF;
             font-size: 14px;
             //padding: 10px;
-        }
-    }
-}
-.header a.phone-link {
-    background-color: #FFF;
-    color: $alchin-green;
-    //display: block;
-    //text-align: center;
-    //margin-bottom: 10px;
-    //float: left;
-    //width: 60%;
-    border-color: #FFF;
-    @media (min-width: 768px) {
-        /*position: absolute;
-        top: 67px;
-        right: 15px;
-        font-size: 30px;
-        float: none;
-        width: auto;*/
-    }
-    &:hover {
-        /*text-decoration: none;*/
-        background-color: $alchin-green;
-        color: #FFF;
-        @media (min-width: 768px) {
-            background-color: #FFF;
-            color: $alchin-green;
         }
     }
 }

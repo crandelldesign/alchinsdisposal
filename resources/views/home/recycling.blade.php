@@ -63,7 +63,7 @@ PLEASE BREAK DOWN ALL BOXES!!</li>
 
 <!--<p class="text-center"><img src="{{url('/')}}/img/recycling1.jpg" width="552" height="289" alt="Recycling Center" class="featured-img img-responsive center-block margin-bottom-20" /></p>-->
 
-<p class="lead text-danger alchin-blue">We do not accept plastic bags, garbage bags, motor oil bottles, styrofoam, glossy magazines, catalogs, or office paper for recycling!!</p>
+<p class="lead text-danger alchin-purple">We do not accept plastic bags, garbage bags, motor oil bottles, styrofoam, glossy magazines, catalogs, or office paper for recycling!!</p>
 
 <p>Click <a href="{{url('/')}}/recycleapp.pdf" target="_blank">HERE</a> for the Membership Application. You can print this out, fill it in and either mail it to us with your check or drop it off at our office.</p>
 

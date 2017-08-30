@@ -21,12 +21,12 @@ $side-z5-shadow: 0 0 38px  9.5px rgba(#000, 0.30), 0 0 12px   3px rgba(#000, 0.2
 
 // Colors
 $alchin-green: #005A3F;
-$alchin-green-light: lighten($alchin-green,15%);
-$alchin-green-dark: darken($alchin-green,15%);
+$alchin-green-light: lighten($alchin-green,15%); // #00A775
+$alchin-green-dark: darken($alchin-green,15%); // #000E09
 
 $alchin-purple: #43045A;
-$alchin-purple-light: lighten($alchin-purple,15%);
-$alchin-purple-dark: darken($alchin-purple,15%);
+$alchin-purple-light: lighten($alchin-purple,15%); // #7A07A3
+$alchin-purple-dark: darken($alchin-purple,15%); // #0C0111
 
 $alchin-blue: #072E59;
 $alchin-blue-light: lighten($alchin-blue,15%);
@@ -34,10 +34,10 @@ $alchin-blue-lighter: lighten($alchin-blue,35%);
 $alchin-blue-dark: darken($alchin-blue,15%);
 
 $alchin-bright-green: #2A7700;
-$alchin-bright-green-light: lighten($alchin-bright-green,15%);
+$alchin-bright-green-light: lighten($alchin-bright-green,15%); // #0D53A0
 $alchin-bright-green-dark: darken($alchin-bright-green,15%);
 
-$link-color: $alchin-bright-green;
-$link-hover-color: $alchin-bright-green-light;
+$link-color: $alchin-blue-light;
+$link-hover-color: $alchin-blue;
 
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
