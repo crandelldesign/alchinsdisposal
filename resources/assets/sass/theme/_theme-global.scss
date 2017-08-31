@@ -75,6 +75,15 @@ a {
 .btn.btn-lg.btn-block {
     margin-bottom: 20px;
 }
+.btn-fa-blue {
+    background-color: #4267b2;
+    color: #FFF;
+    border-bottom: 1px solid #29487d;
+    &:hover {
+        background-color: #29487d;
+        color: #FFF;
+    }
+}
 
 // General Styles
 .alchin-green {
