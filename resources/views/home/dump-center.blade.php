@@ -7,8 +7,8 @@
 <p>Household Waste - $20.00 per yard<br />
     Construction Material - $25.00 per yard
 </p>
-<p>Construction Material Accepted: Shingles, Steel, Carpeting, Flooring, Drywall</p>
-<p>We accept pick-up truck loads and trailers up to 5’ x 10’. An appointment must be scheduled for trailers over this size and are subject to refusal.</p>
+<p>Construction Material Accepted: Shingles, Carpeting, Flooring, Drywall</p>
+<p>We accept pick-up truck loads and trailers up to 5' x 10'. Trailers larger than 5' x 10' or dump trucks are not accepted.</p>
 <table class="table">
     <tr>
         <td>Freezers (upright or chest size)</td>
@@ -24,7 +24,7 @@
     </tr>
     <tr>
         <td>Hot Water Tank</td>
-        <td>$ 5.00 - 15.00</td>
+        <td>$5.00 - $20.00</td>
     </tr>
     <tr>
         <td>Washer</td>
@@ -48,7 +48,7 @@
     </tr>
     <tr>
         <td>Toilet</td>
-        <td>$5.00 </td>
+        <td>$10.00 </td>
     </tr>
     <tr>
         <td>Sink (single)</td>
@@ -64,11 +64,15 @@
     </tr>
     <tr>
         <td>Sectional Couch</td>
-        <td>$20.00 - 30.00</td>
+        <td>$30.00 - $50.00</td>
     </tr>
     <tr>
-        <td>Couch with sleeper</td>
+        <td>Couch with Sleeper/Recliners</td>
         <td>$20.00 </td>
+    </tr>
+    <tr>
+        <td>Loveseat with Sleeper/Recliners</td>
+        <td>$15.00</td>
     </tr>
     <tr>
         <td>Couch</td>

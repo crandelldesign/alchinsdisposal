@@ -7,7 +7,7 @@
 	<div class="col-sm-6">
 		<div itemscope itemtype="http://schema.org/Organization">
 			<div itemscope itemtype="http://schema.org/Restaurant">
-				<p class="alchin-red"><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
+				<p class="alchin-green-light"><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
 
 				<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 					<span itemprop="streetAddress">9900 W. Grand River<br />
@@ -91,6 +91,7 @@
                     <div class="help-block with-errors">{{ $error }}</div>
                 @endforeach
             </div> */ ?> -->
+            <p class="help-block alchin-red">Scheduling extra/large items or starting or canceling service cannot be emailed to Alchin's at any time.</p>
             <input type="text" name="honeyName" style="display: none">
             {{ csrf_field() }}
             <div class="form-group form-group-submit">

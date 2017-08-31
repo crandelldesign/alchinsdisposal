@@ -11,7 +11,7 @@
 	<input type="hidden" name="cmd" value="_s-xclick">
 	<input type="hidden" name="hosted_button_id" value="2803076">
 	<div class="form-group">
-		<input type="hidden" name="on0" value="Trash Pickup"><label class="alchin-red">Trash Pickup</label>
+		<input type="hidden" name="on0" value="Trash Pickup"><label class="alchin-green">Trash Pickup</label>
 	</div>
 	<div class="form-group">
 		<select class="form-control" name="os0">
@@ -19,7 +19,7 @@
 		</select>
 	</div>
 	<div class="form-group">
-		<input type="hidden" name="on1" value="Account Number"><label class="alchin-red">Account Number</label>
+		<input type="hidden" name="on1" value="Account Number"><label class="alchin-green">Account Number</label>
 		<input class="form-control" type="text" name="os1" maxlength="60">
 	</div>
 	<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="">

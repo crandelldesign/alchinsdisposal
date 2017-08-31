@@ -27,7 +27,7 @@
 </ul>
 
 <p class="h3">We offer a senior citizen rate (55 years of age or older)<br>
-<small>Note: Proof of Age Required</small></p>
+<small><span class="alchin-red">Note: Proof of Age Required</span></small></p>
 <ul>
 	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
@@ -47,9 +47,7 @@
         </ul></li>-->
 </ul>
 
-<p>RATE CHANGE EFFECTIVE MARCH 1, 2015</p>
-
-<p>Billing Cycles are as follows: monthly, bi-monthly, quarterly, semi-annually, or annually. If you choose to be billed on an annual basis, you will receive one month free service. (This does not include customers who would receive our association/subdivision rates.) To start service with us, we require 3 months prepayment.</p>
+<p>Billing Cycles are as follows: monthly, bi-monthly, quarterly, semi-annually, or annually. If you choose to be billed on an annual basis, you will receive one month free service. (This does not include customers who would receive our association/subdivision rates.) <span class="alchin-red">To start service with us, we require 3 months prepayment.</span></p>
 
 <p>We offer association and subdivision rates. Please contact our office for more information.</p>
 
@@ -66,7 +64,7 @@
     <li>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</li>
 </ul>
 
-<p class="text-uppercase">Scheduling of extra items cannot be emailed to Alchin's at any time.</p>
+<p class="text-uppercase alchin-red">Scheduling of extra items cannot be emailed to Alchin's at any time.</p>
 
 <p class="h4 alchin-red">Alchin's Disposal is not responsible for lost, stolen or damaged refuse receptacles that are not the property of Alchin's Disposal.</p>
 

@@ -33,6 +33,6 @@
     </tr>
 </table>
 
-<p>We require 3 months prepayment and a 1 year verbal contract.</p>
+<p class="alchin-red">We require 3 months prepayment and a 1 year verbal contract.</p>
 
 @stop
