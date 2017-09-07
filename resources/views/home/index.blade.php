@@ -9,7 +9,7 @@
 	</div>
 	<div class="col-sm-5 margin-bottom-20">
 
-		<p>Alchin's Disposal has been family owned since 1986, and is the only refuse removal company in Livingston County who can say this. Why give your money to a huge corporation when you can keep it local? Alchin’s strives on excellent customer service and can honestly say we stand behind our reputation of being the best refuse removal company in the Livingston County area.</p>
+		<p>Alchin's Disposal has been family owned since 1986, and is the only refuse removal company in Livingston County who can say this.  Alchin's strives on excellent customer service and can honestly say we stand behind our reputation of being the best refuse removal company in the Livingston County area.</p>
 	</div>
 	<div class="col-sm-3">
 		<a href="{{url('/')}}/contact" class="btn btn-block btn-lg btn-green">Contact Us <i class="fa fa-angle-right" aria-hidden="true"></i></a>
