@@ -17,10 +17,8 @@
                 text-align: right;
             }
             > span {
-                @media (min-width: 768px) {
-                    display: inline-block;
-                    margin-right: 10px;
-                }
+                display: inline-block;
+                margin-right: 10px;
             }
             a {
                 color: #FFF;
