@@ -149,7 +149,7 @@ class HomeController extends Controller
             $message->to('alchinsdisposal@sbcglobal.net', 'Alchin\'s Disposal');
             $message->bcc('matt@crandelldesign.com', 'Matt Crandell');
             $message->replyTo($request->get('email'), $request->get('name'));
-            $message->subject('You\'ve Been Contacted by the Four Green Fields Farm Website.');
+            $message->subject('You\'ve Been Contacted by the Alchin\'s Disposal Website.');
         });
 
         //Analytics::trackEvent('Email', 'sent', 'Email Sent', 1);

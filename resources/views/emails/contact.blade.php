@@ -136,7 +136,7 @@
           <table style="margin:0 auto;" cellspacing="0" cellpadding="0" width="100%">
             <tr>
               <td style="text-align: center; padding: 15px; background-color: #FFFFFF">
-                <a href="#"><img class="w680" width="200" height="158" src="http://crandellhosting.com/images/alchins-disposal-logo-email.jpg" alt="Four Green Fields Farm" /></a>
+                <a href="#"><img class="w680" width="200" height="158" src="http://crandellhosting.com/images/alchins-disposal-logo-email.jpg" alt="Alchin's Disposal" /></a>
               </td>
             </tr>
           </table>
