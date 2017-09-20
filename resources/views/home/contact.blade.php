@@ -10,10 +10,16 @@
 				<p class="alchin-green-light"><strong itemprop="name">Alchin's Disposal, Inc.</strong></p>
 
 				<address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <strong>Physical Address</strong><br>
 					<span itemprop="streetAddress">9900 W. Grand River<br />
-					P.O. Box 950</span><br />
 					<span itemprop="addressLocality">Fowlerville</span>, <span itemprop="addressRegion">MI</span> <span itemprop="postalCode">48836</span>
 				</address>
+
+                <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <strong>Mailing Address</strong><br>
+                    P.O. Box 950</span><br />
+                    <span itemprop="addressLocality">Fowlerville</span>, <span itemprop="addressRegion">MI</span> <span itemprop="postalCode">48836</span>
+                </address>
 
 				<p><a href="tel:1-517-223-7119" itemprop="telephone" class="phone">(517) 223-7119 (office)</a><br />
 				(517) 223-4103 (fax)<br />
