@@ -128,4 +128,5 @@
     </tr>
 </table>
 <p class="text-uppercase">Prices Subject to Change Without Notice</p>
+<p><strong>ITEMS NOT TAKEN:</strong> Yard Waste, Concrete, Fencing, Gas/Oil Cans, Trees or Branches, Cinder Block, Tires, Appliances w/Freon, Dirt or Rocks, Railroad Ties, Steel (over 4'), Animal Carcasses, Auto or Truck Batteries, Oil Based Paint (Latex and/or Water Based Paint is allowed – paint MUST BE dried and cracked and the lids removed from the can).</p>
 @stop
