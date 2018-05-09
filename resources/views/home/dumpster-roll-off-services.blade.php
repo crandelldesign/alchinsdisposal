@@ -68,7 +68,7 @@ RATES ARE SUBJECT TO CHANGE WITHOUT NOTIFICATION</strong></p>
 <!--<p class="text-center alchin-red"><strong>ROLL-OFFS ARE PRE-PAY BASIS ONLY!
 RATES ARE SUBJECT TO CHANGE WITHOUT NOTIFICATION</strong></p>-->
 
-<p>Roll-offs are delivered and picked up Monday through Thursday. There is a 2 week time limit on our roll-offs. You MUST contact our office to have the roll-off removed within that 2 week time limit to avoid a $10.00 per day rental fee.</p>
+<p>Roll-offs are delivered and picked up Tuesday through Friday. There is a 2 week time limit on our roll-offs. You MUST contact our office to have the roll-off removed within that 2 week time limit to avoid a $10.00 per day rental fee.</p>
 
 <!--<p><strong class="alchin-purple">ITEMS NOT TAKEN:</strong> Yard Waste, Concrete, Fencing, Gas/Oil Cans, Trees or Branches, Cinder Block, Tires, Appliances w/Freon, Dirt or Rocks, Railroad Ties, Steel (over 4'), Animal Carcasses, Auto or Truck Batteries, Oil Based Paint (Latex and/or Water Based Paint is allowed – paint MUST BE dried and cracked and the lids removed from the can).</p>-->
 
