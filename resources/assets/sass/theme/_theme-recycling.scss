@@ -1,0 +1,42 @@
+// Recycling Page
+
+body.home-recycling {
+    .prices-row {
+        display: flex;
+        > div {
+            flex: 1;
+            //display: flex;
+            justify-content: center;
+            &:nth-child(1) {
+                p {
+                    text-align: right;
+                }
+            }
+            &:nth-child(2) {
+                max-width: 50px;
+                margin: 0 30px;
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .warning {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 2px;
+        color: $alchin-purple-light;
+        @media (min-width: 768px) {
+            font-size: 21px;
+        }
+    }
+    .warning-small {
+        font-weight: 600;
+        color: $alchin-purple-light;
+    }
+    .recycling-slogan {
+        @extend .lead;
+        text-align: center;
+    }
+}
