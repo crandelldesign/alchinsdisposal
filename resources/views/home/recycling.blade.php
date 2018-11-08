@@ -44,9 +44,9 @@
 			<li>Magazines/Newspaper</li>
 			<li>Office Paper/Paper Bags</li>
 			<li>Plastic # 1-#7</li>
-			<li>Milk Jugs/Juice Container/Laundry Jugs</li>
+			<li>Milk Jugs/Juice Containers/Laundry Jugs</li>
 			<li>Yogurt Cups/Plastic Buckets/Flower Pots</li>
-			<li>Plastic Items Smaller Than S Gallon Bucket</li>
+			<li>Plastic Items Smaller Than 5 Gallon Bucket</li>
 			<li>Tin Cans (No Labels)</li>
 			<li>Metal Pans/Cooking Pans</li>
 		</ul>
