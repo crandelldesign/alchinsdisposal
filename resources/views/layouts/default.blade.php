@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         @include('layouts.head')
     </head>
-    <body>
+    <body class="{{$view_name}}">
         @include('layouts.nav')
         <div class="page container-fluid">
             @yield('content')

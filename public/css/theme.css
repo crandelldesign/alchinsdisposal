@@ -1649,7 +1649,8 @@ p {
   margin: 0 0 10px;
 }
 
-.lead {
+.lead,
+body.home-recycling .recycling-slogan {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 300;
@@ -1657,7 +1658,8 @@ p {
 }
 
 @media (min-width: 768px) {
-  .lead {
+  .lead,
+  body.home-recycling .recycling-slogan {
     font-size: 21px;
   }
 }
@@ -11836,6 +11838,57 @@ hr {
 }
 
 /* Page Styles */
+
+body.home-recycling .prices-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.home-recycling .prices-row > div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.home-recycling .prices-row > div:nth-child(1) p {
+  text-align: right;
+}
+
+body.home-recycling .prices-row > div:nth-child(2) {
+  max-width: 50px;
+  margin: 0 30px;
+}
+
+body.home-recycling .prices-row > div:nth-child(2) p {
+  text-align: center;
+}
+
+body.home-recycling .warning {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 2px;
+  color: #7a07a3;
+}
+
+@media (min-width: 768px) {
+  body.home-recycling .warning {
+    font-size: 21px;
+  }
+}
+
+body.home-recycling .warning-small {
+  font-weight: 600;
+  color: #7a07a3;
+}
+
+body.home-recycling .recycling-slogan {
+  text-align: center;
+}
 
 /* Home Page */
 
