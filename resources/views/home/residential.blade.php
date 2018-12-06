@@ -57,12 +57,26 @@
 
 <h3>Trash Limit</h3>
 
-<ul>
-    <li><strong>Without 96 gallon curb-cart:</strong> Six (6) 30 gallon size bags OR three (3) 40 gallon size cans.</li>
-    <li><strong>With 65 gallon curb-cart:</strong> Cart full only.</li>
-    <li><strong>With 96 gallon curb-cart:</strong> Cart full plus two (2) 30 gallon size bags or one (1) 40 gallon size can.</li>
-    <li>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</li>
-</ul>
+<div class="residential-limits">
+    <div class="row-flex">
+        <div><strong>Without 96 gallon curb-cart</strong></div>
+        <div>Six (6) 30 gallon size bags OR three (3) 40 gallon size cans.</div>
+    </div>
+    <div class="row-flex">
+        <div><strong>With 65 gallon curb-cart</strong></div>
+        <div>Cart full only.</div>
+    </div>
+    <div class="row-flex">
+        <div><strong>With 96 gallon curb-cart</strong></div>
+        <div>Cart full plus two (2) 30 gallon size bags or one (1) 40 gallon size can.</div>
+    </div>
+    <div class="row-flex">
+        <div>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</div>
+    </div>
+    <div class="row-flex">
+        <div>Between the months of May and November we will pick up lawn bags (lawn clippings and leaves only). The cost is $2.50 per bag. Lawn bags must be called into the office at least 1 business day prior to your pick up day, the cost of which must be paid before pick up of the bags.</div>
+    </div>
+</div>
 
 <p class="text-uppercase alchin-red">Scheduling of extra items cannot be emailed to Alchin's at any time.</p>
 
