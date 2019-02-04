@@ -3,14 +3,14 @@
 
 <h1>Welcome to Alchin's Disposal</h1>
 
-<div class="ribbon-container">
+<!--<div class="ribbon-container">
 	<div class="ribbon">
 		<div class="ribbon-content">
 		<strong>DUE TO INCLEMENT WEATHER Alchin's Disposal will be closed Wed, 1/30/19.</strong><br>
 		Wed, Thur & Fri routes will be delayed by one day. We apologize for any inconvenience.
 		</div>
 	</div>
-</div>
+</div>-->
 
 <div class="row">
 	<div class="col-sm-4 margin-bottom-20">
