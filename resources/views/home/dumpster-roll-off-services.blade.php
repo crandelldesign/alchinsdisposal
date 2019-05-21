@@ -19,11 +19,11 @@
         <th>Size</th>
    	</tr><tr>
     	<td>4 Yard</td>
-        <td>$120.00 per dump</td>
+        <td>$150.00 per dump</td>
         <td>5'W X 7'L X 4'T</td>
     </tr><tr>
     	<td>6 Yard</td>
-        <td>$170.00 per dump</td>
+        <td>$200.00 per dump</td>
         <td>5'W X 10'L X 4'T</td>
     </tr>
 </table>
@@ -48,19 +48,19 @@ RATES ARE SUBJECT TO CHANGE WITHOUT NOTIFICATION</strong></p>
         <th>Size</th>
    	</tr><tr>
     	<td>10 Yard</td>
-        <td>$250.00 per dump</td>
+        <td>$300.00 per dump</td>
         <td>8'W X 12'L X 4'T</td>
     </tr><tr>
     	<td>15 Yard</td>
-        <td>$320.00 per dump</td>
+        <td>$375.00 per dump</td>
         <td>8'W X 15'L X 4'T</td>
     </tr><tr>
     	<td>20 Yard</td>
-        <td>$400.00 per dump</td>
+        <td>$450.00 per dump</td>
         <td>8'W X 22'L X 4'T</td>
     </tr><tr>
     	<td>30 Yard</td>
-        <td>$525.00 per dump</td>
+        <td>$575.00 per dump</td>
         <td>8'W X 22'L X 6'T</td>
     </tr>
 </table>
