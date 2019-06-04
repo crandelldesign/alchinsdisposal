@@ -32,28 +32,16 @@
 	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
         	<li>Weekly Service: $11.00 per month</li>
-            <!--<li>Every Other Week Service: $7.00 per month</li>-->
-            <!--<li>Once a Month Service: $4.00</li>-->
         </ul></li>
     <li><strong>With 65 gallon curb-cart</strong>
         <ul>
             <li>Weekly Service: $13.00 per month</li>
         </ul></li>
-   	<!--<li><strong>With a 96 gallon curb-cart</strong>
-		<ul>
-        	<li>Weekly Service: $19.75 per month</li>
-            <li>Every Other Week Service: $9.00 per month</li>
-            <li>Once a Month Service: $6.00 per month</li>
-        </ul></li>-->
 </ul>
 
-<p>Billing Cycles are as follows: monthly, bi-monthly, quarterly, semi-annually, or annually. If you choose to be billed on an annual basis, you will receive one month free service. (This does not include customers who would receive our association/subdivision rates.) <span class="alchin-red">To start service with us, we require 3 months prepayment.</span></p>
+<p>Billing Cycles are as follows: monthly, bi-monthly, quarterly, semi-annually, or annually. <span class="alchin-red">To start service with us, we require 3 months prepayment.</span></p>
 
 <p>We offer association and subdivision rates. Please contact our office for more information.</p>
-
-<p class="h2 text-center">WE WILL BEAT ALL COMPETITORS' RATES!<br />
-	(FIRST TIME CUSTOMERS ONLY)<br />
-    <small>(Some restrictions apply)</small></p>
 
 <h3>Trash Limit</h3>
 
