@@ -11,32 +11,24 @@
 <p>We accept pick-up truck loads and trailers up to 5' x 10'. Trailers larger than 5' x 10' or dump trucks are not accepted.</p>
 <table class="table">
     <tr>
-        <td>Freezers (upright or chest size)</td>
-        <td>$20.00 - 40.00 (No Freon)</td>
-    </tr>
-    <tr>
-        <td>Refrigerators</td>
-        <td>$20.00 - 40.00 (No Freon)</td>
-    </tr>
-    <tr>
         <td>Stove or Oven</td>
-        <td>$15.00 </td>
+        <td>$25.00 </td>
     </tr>
     <tr>
         <td>Hot Water Tank</td>
-        <td>$5.00 - $20.00</td>
+        <td>$15.00</td>
     </tr>
     <tr>
         <td>Washer</td>
-        <td>$15.00 </td>
+        <td>$20.00</td>
     </tr>
     <tr>
         <td>Dryer</td>
-        <td>$10.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Dishwasher</td>
-        <td>$10.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Microwave Oven</td>
@@ -44,7 +36,7 @@
     </tr>
     <tr>
         <td>Air Conditioner (window size)</td>
-        <td>$10.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Toilet</td>
@@ -52,15 +44,15 @@
     </tr>
     <tr>
         <td>Sink (single)</td>
-        <td>$5.00 </td>
-    </tr>
-    <tr>
-        <td>Sink (double)</td>
         <td>$10.00 </td>
     </tr>
     <tr>
+        <td>Sink (double)</td>
+        <td>$20.00 </td>
+    </tr>
+    <tr>
         <td>Bathtub</td>
-        <td>$10.00 - 15.00</td>
+        <td>$25.00</td>
     </tr>
     <tr>
         <td>Sectional Couch</td>
@@ -68,31 +60,31 @@
     </tr>
     <tr>
         <td>Couch with Sleeper/Recliners</td>
-        <td>$20.00 </td>
+        <td>$40.00 </td>
     </tr>
     <tr>
         <td>Loveseat with Sleeper/Recliners</td>
-        <td>$15.00</td>
+        <td>$25.00</td>
     </tr>
     <tr>
         <td>Couch</td>
-        <td>$15.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Loveseat</td>
-        <td>$10.00 </td>
+        <td>$15.00 </td>
     </tr>
     <tr>
         <td>Recliner or Overstuffed Chair</td>
-        <td>$10.00 </td>
+        <td>$15.00 </td>
     </tr>
     <tr>
         <td>Chair (living room)</td>
-        <td>$5.00 </td>
+        <td>$15.00 </td>
     </tr>
     <tr>
         <td>Television up to 20&quot;</td>
-        <td>$5.00 </td>
+        <td>$10.00 </td>
     </tr>
     <tr>
         <td>Television 21&quot; or larger</td>
@@ -100,7 +92,7 @@
     </tr>
     <tr>
         <td>Mattress (King, Queen, Full)</td>
-        <td>$15.00 </td>
+        <td>$30.00 </td>
     </tr>
     <tr>
         <td>Box Spring (King, Queen, Full)</td>
@@ -108,7 +100,7 @@
     </tr>
     <tr>
         <td>Mattress (Double, Twin)</td>
-        <td>$10.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Boxspring (Double, Twin)</td>
@@ -116,7 +108,7 @@
     </tr>
     <tr>
         <td>Mattress (Single, Crib Size)</td>
-        <td>$5.00</td>
+        <td>$10.00</td>
     </tr>
     <tr>
         <td>Box Spring (Single, Crib Size)</td>
