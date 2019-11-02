@@ -61,9 +61,6 @@
     <div class="row-flex">
         <div>Extra items above the trash limit must be called into the office at least one (1) business day before trash pick-up day to guarantee pick-up. You will be informed at the time of your contact with our office if there will be an additional charge for the extra item(s).</div>
     </div>
-    <div class="row-flex">
-        <div>Between the months of May and November we will pick up lawn bags (lawn clippings and leaves only). The cost is $2.50 per bag. Lawn bags must be called into the office at least 1 business day prior to your pick up day, the cost of which must be paid before pick up of the bags.</div>
-    </div>
 </div>
 
 <p class="text-uppercase alchin-red">Scheduling of extra items cannot be emailed to Alchin's at any time.</p>
