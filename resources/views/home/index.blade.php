@@ -30,7 +30,8 @@
 <div class="index-bottom">
 <h2>Company Officers</h2>
 <p>Steve Alchin - President</p>
-<p>Kelly Alchin-Young - Vice-President</p>
+<p>Kelly Alchin-Young - Vice-President of Administration</p>
+<p>Cory J. Alchin - Vice-President of Operations</p>
 <p>Kathryn Alchin-Loffreda - Secretary/Treasurer</p>
 
 <p><img src="{{url('/')}}/img/visa-icon.gif" width="78" height="50" alt="VISA" /> <img src="{{url('/')}}/img/discover-icon.gif" width="78" height="50" alt="Discover" /> <img src="{{url('/')}}/img/mastercard-icon.gif" width="80" height="50" alt="MasterCard" /></p>
