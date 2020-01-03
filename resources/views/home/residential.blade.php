@@ -31,11 +31,11 @@
 <ul>
 	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
-        	<li>Weekly Service: $11.00 per month</li>
+        	<li>Weekly Service: $12.00 per month</li>
         </ul></li>
     <li><strong>With 65 gallon curb-cart</strong>
         <ul>
-            <li>Weekly Service: $13.00 per month</li>
+            <li>Weekly Service: $14.00 per month</li>
         </ul></li>
 </ul>
 
