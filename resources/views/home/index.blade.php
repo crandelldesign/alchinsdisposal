@@ -1,6 +1,8 @@
 @extends('layouts.default')
 @section('content')
 
+<div class="alert alert-warning">Alchin's is considered an essential company. All routes will run as scheduled. Our office, drop off center and recycling center are closed to the public until further notice.</div>
+
 <h1>Welcome to Alchin's Disposal</h1>
 
 <!--<div class="ribbon-container">
