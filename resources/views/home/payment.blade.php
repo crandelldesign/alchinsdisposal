@@ -5,7 +5,7 @@
 
 <p>Please type in your account number which is located in the upper right hand corner of your statement then click the Buy Now button. This will take you to PayPal where you can either log into your PayPal account, if you have one, or use a VISA, MasterCard or Discover credit/debit card, or pay with a check, using your checking account information.</p>
 <p><strong class="text-uppercase">You must input the amount you would like to pay on your account and then click the &quot;continue&quot; button.</strong></p>
-<p><strong class="text-uppercase">Payments received after 5pm on delinquent accounts does not guarantee pick up the next day. Credit for no pick up will not be issued on deliquent accounts after payment is received.</strong></p>
+<p><strong class="text-uppercase">Payments received after 5pm on delinquent accounts does not guarantee pick up the next day. Credit for no pick up will not be issued on delinquent accounts after payment is received.</strong></p>
 
 <form class="form payment-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	<input type="hidden" name="cmd" value="_s-xclick">
