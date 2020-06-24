@@ -41,3 +41,27 @@ $link-color: $alchin-blue-light;
 $link-hover-color: $alchin-blue;
 
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+
+// Bootstrap Variables
+$brand-primary: $alchin-green;
+$brand-success: $alchin-bright-green;
+$brand-info: $alchin-blue-light;
+$brand-warning: #FFC107;
+$brand-danger: #DC3545;
+// Set a specific jump point for requesting color jumps
+$theme-color-interval: 8%;
+$alert-color-level: 6;
+$alert-bg-level: -9;
+// Color States
+$state-success-text: mix(#000, $brand-success, abs($alert-color-level) * $theme-color-interval);
+$state-success-bg: mix(#FFF, $brand-success, abs($alert-bg-level) * $theme-color-interval);
+$state-success-border: $brand-success;
+$state-info-text: mix(#000, $brand-info, abs($alert-color-level) * $theme-color-interval);
+$state-info-bg: mix(#FFF, $brand-info, abs($alert-bg-level) * $theme-color-interval);
+$state-info-border: $brand-info;
+$state-warning-text: mix(#000, $brand-warning, abs($alert-color-level) * $theme-color-interval);
+$state-warning-bg: mix(#FFF, $brand-warning, abs($alert-bg-level) * $theme-color-interval);
+$state-warning-border: $brand-warning;
+$state-danger-text: mix(#000, $brand-danger, abs($alert-color-level) * $theme-color-interval);
+$state-danger-bg: mix(#FFF, $brand-danger, abs($alert-bg-level) * $theme-color-interval);
+$state-danger-border: $brand-danger;

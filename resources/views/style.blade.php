@@ -54,8 +54,38 @@
                 </div>
                 <div class="col-md-4">
                     <div class="color-swatch swatch8">
-                        Alchin Blue Light<br>
+                        Alchin Blue Light / Info<br>
                         #0D53A0
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch9">
+                        Alchin Bright Green / Success<br>
+                        #2A7700
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch10">
+                        Alchin Bright Green Light<br>
+                        #45C400
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch11">
+                        Alchin Bright Green Dark<br>
+                        #0F2B00
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch12">
+                        Warning<br>
+                        #0F2B00
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color-swatch swatch13">
+                        Danger<br>
+                        #0F2B00
                     </div>
                 </div>
             </div>
@@ -69,6 +99,8 @@
             <button class="btn btn-black">This is another smaller button</button>
 
             <hr class="visible-xs-block">
+
+            <p>&nbsp;</p>
 
         </div>
         <div class="col-sm-6">
@@ -96,6 +128,29 @@
             <p><a href="#">This is a link</a> - <a href="#" class="hover">This is a hover link</a></p>
 
             <p class="details">Font: Open Sans Regular / Black #333333</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ribbon-container">
+                <div class="ribbon">
+                    <div class="ribbon-content">
+                        This is an examble of a ribbon.
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-success" role="alert">
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+            </div>
+            <div class="alert alert-info" role="alert">
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+            </div>
+            <div class="alert alert-warning" role="alert">
+                <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+            </div>
+            <div class="alert alert-danger" role="alert">
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+            </div>
         </div>
     </div>
 
