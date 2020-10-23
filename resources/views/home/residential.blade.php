@@ -26,16 +26,16 @@
         </ul></li>
 </ul>
 
-<p class="h3">We offer a senior citizen rate (55 years of age or older)<br>
+<p class="h3">We offer a senior citizen rate (65 years of age or older)<br>
 <small><span class="alchin-red">Note: Proof of Age Required</span></small></p>
 <ul>
 	<li><strong>Using Own Bag or Cans</strong>
     	<ul>
-        	<li>Weekly Service: $12.00 per month</li>
+        	<li>Weekly Service: $14.75 per month</li>
         </ul></li>
     <li><strong>With 65 gallon curb-cart</strong>
         <ul>
-            <li>Weekly Service: $14.00 per month</li>
+            <li>Weekly Service: $16.75 per month</li>
         </ul></li>
 </ul>
 
@@ -47,7 +47,7 @@
 
 <div class="residential-limits">
     <div class="row-flex">
-        <div><strong>Without 96 gallon curb-cart</strong></div>
+        <div><strong>Without 96 or 65 gallon curb-cart</strong></div>
         <div>Six (6) 30 gallon size bags OR three (3) 40 gallon size cans.</div>
     </div>
     <div class="row-flex">
