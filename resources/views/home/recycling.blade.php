@@ -14,7 +14,7 @@
 	</div>
 	<div>
 		<p>$20.00 Annual Membership (applies to entire household)<br />
-        $15.00 Annual Membership for Seniors (55+) (applies to entire household)</p>
+        $15.00 Annual Membership for Seniors (65+) (applies to entire household)</p>
 	</div>
 </div>
 
