@@ -1,8 +1,8 @@
 @extends('layouts.default')
 @section('content')
 
-<div class="alert alert-info text-center" role="alert">
-	Our Recycling Center and Drop Off Center have reopened by appointment only. Please contact our office to schedule an appointment.
+<div class="alert alert-info text-center alert-announcement" role="alert">
+The Recycling Center is open by appointment only. The Office and Drop-Off Center are closed from Wed., 11/18/20 thru Tues., 12/8/20.
 </div>
 
 <h1>Welcome to Alchin's Disposal</h1>
