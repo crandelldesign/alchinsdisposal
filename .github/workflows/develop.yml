@@ -1,4 +1,4 @@
-name: CD
+name: Deploy Dev
 
 on:
   push:
@@ -28,7 +28,8 @@ jobs:
     - name: Deploy to production
       uses: appleboy/ssh-action@master
       with:
-        username: YOUR USERNAME GOES HERE
-        host: YOUR SERVER'S HOSTNAME GOES HERE
+        username: ${{ secrets.SSH_USERNAME }}
+        host: 64.4.160.12
         password: ${{ secrets.SSH_PASSWORD }}
-        script: 'cd /var/www/html && ./server_deploy.sh'
+        port: 7822
+        script: 'cd /var/www/alchinsdisposal-dev && ./server_deploy.sh'
