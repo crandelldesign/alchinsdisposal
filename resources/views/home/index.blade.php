@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="alert alert-info text-center alert-announcement" role="alert">
-The Recycling Center is open by appointment only. The Office and Drop-Off Center are closed at least January 15th, 2021.
+The Recycling Center is open by appointment only. The Office and Drop-Off Center are closed at least February 1st, 2021.
 </div>
 
 <h1>Welcome to Alchin's Disposal</h1>
