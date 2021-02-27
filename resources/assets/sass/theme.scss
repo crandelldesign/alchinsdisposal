@@ -108,6 +108,29 @@ Author: Matt Crandell
   margin-top: 10px;
 }
 /* Payment */
+.form-row-group {
+  display: flex;
+  align-items: center;
+  > * {
+    &:not(:first-child):not(:last-child) {
+      margin-left: 0.25rem; // 4px
+      margin-right: 0.25rem; // 4px
+    }
+    &:first-child {
+      margin-right: 0.25rem; // 4px
+    }
+    &:last-child {
+      margin-left: 0.25rem; // 4px
+    }
+  }
+}
+#smart-button-container {
+  max-width: 600px;
+  margin: 0 auto 15px auto;
+  iframe {
+    box-shadow: none;
+  }
+}
 .payment-form {
   max-width: 600px;
   margin: 0 auto 15px auto;
