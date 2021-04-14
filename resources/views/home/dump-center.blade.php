@@ -56,7 +56,7 @@
     </tr>
     <tr>
         <td>Sectional Couch</td>
-        <td>$30.00 - $50.00</td>
+        <td>$40.00 - $70.00</td>
     </tr>
     <tr>
         <td>Couch with Sleeper/Recliners</td>
@@ -64,15 +64,15 @@
     </tr>
     <tr>
         <td>Loveseat with Sleeper/Recliners</td>
-        <td>$25.00</td>
+        <td>$30.00</td>
     </tr>
     <tr>
         <td>Couch</td>
-        <td>$20.00 </td>
+        <td>$30.00</td>
     </tr>
     <tr>
         <td>Loveseat</td>
-        <td>$15.00 </td>
+        <td>$20.00 </td>
     </tr>
     <tr>
         <td>Recliner or Overstuffed Chair</td>

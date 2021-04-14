@@ -7,14 +7,14 @@
 
 <div class="prices-row">
 	<div>
-		<p>$3.00 per visit</p>
+		<p>$5.00 per visit</p>
 	</div>
 	<div>
 		<p>-OR-</p>
 	</div>
 	<div>
-		<p>$20.00 Annual Membership (applies to entire household)<br />
-        $15.00 Annual Membership for Seniors (65+) (applies to entire household)</p>
+		<p>$25.00 Annual Membership (applies to entire household)<br />
+        $20.00 Annual Membership for Seniors (65+) (applies to entire household)</p>
 	</div>
 </div>
 
