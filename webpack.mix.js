@@ -11,8 +11,8 @@ let mix = require('laravel-mix');
  |
  */
 
-// Compile Sass
-mix.sass('resources/assets/sass/theme.scss', 'public/css');
+// Compile Sass and Payment JS
+mix.js('resources/assets/js/payment.js', 'public/js').sass('resources/assets/sass/theme.scss', 'public/css');
 
 // Combine JS
 mix.scripts([

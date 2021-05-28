@@ -104,6 +104,14 @@ class HomeController extends Controller
         $view->description = "Make a Payment to Alchin's Disposal, Inc";
         $view->active_page = "payment";
 
+        $gateway = new \Braintree\Gateway([
+            'environment' => env('BT_ENVIRONMENT'),
+            'merchantId' => env('BT_MERCHANT_ID'),
+            'publicKey' => env('BT_PUBLIC_KEY'),
+            'privateKey' => env('BT_PRIVATE_KEY'),
+        ]);
+        $view->client_id = $gateway->clientToken()->generate();
+
         return $view;
     }
 

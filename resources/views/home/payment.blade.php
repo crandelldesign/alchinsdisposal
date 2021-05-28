@@ -7,6 +7,43 @@
 <p><strong class="text-uppercase">You must input the amount you would like to pay on your account and then click the &quot;continue&quot; button.</strong></p>
 <p><strong class="text-uppercase">Payments received after 5pm on delinquent accounts does not guarantee pick up the next day. Credit for no pick up will not be issued on delinquent accounts after payment is received.</strong></p>
 
+<div id="payment-form-container" data-clientId="{!! $client_id !!}">
+
+  <form method="post" id="payment-form" v-on:submit.prevent="submitForm()">
+    <section>
+      <div class="form-group">
+        <label for="account-number">Account Number</label>
+        <input class="form-control" type="text" name="account_number" id="account-number" maxlength="127" value="" v-model="accountNumber">
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input class="form-control" type="tel" name="amount" id="amount" min="1" value="" v-model="amount">
+      </div>
+      <div class="form-group">
+        <div class="bt-drop-in-wrapper">
+          <div id="bt-dropin"></div>
+        </div>
+      </div>
+    </section>
+
+    <input id="nonce" name="payment_method_nonce" type="hidden" />
+    <button class="btn btn-primary" type="submit">Pay</button>
+  </form>
+
+  <!-- <v-braintree 
+      authorization="{{ $client_id }}"
+      :paypal="{flow: 'vault'}"
+      @load="onLoad"
+      @loadFail="onLoadFail"
+      @success="onSuccess"
+      @error="onError"
+    >
+      <template v-slot:button="slotProps">
+        <input type="submit" @click="slotProps.submit" class="btn btn-warning" value="Pay now!!" />
+      </template>
+    </v-braintree>-->
+</div>
+
 <div id="smart-button-container">
 
   <div>
@@ -140,4 +177,9 @@
 	<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form> -->
 
+@stop
+
+@section('scripts')
+<script src="https://js.braintreegateway.com/web/dropin/1.27.0/js/dropin.min.js"></script>
+<script type="text/javascript" src="{{ mix('/js/payment.js') }}"></script>
 @stop
