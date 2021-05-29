@@ -3,7 +3,7 @@
 
 <div class="alert alert-info text-center alert-announcement" role="alert">
 Drop off Center and Recycling Center are by appointment only.<br>
-The Office will reopen to the public on 6/2/2021.
+The Office will reopen to the public on 6/1/2021.
 </div>
 
 <h1>Welcome to Alchin's Disposal</h1>
