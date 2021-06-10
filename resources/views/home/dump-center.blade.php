@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <h1>On-Site Dumping Center</h1>
-<p>The drop-off center is open <strong>11:00am - 4:00pm</strong>, Monday - Thursday.</p>
+<p>The drop-off center is open <strong>11:00am - 3:45pm</strong>, Monday, Wednesday, Friday.</p>
 <p>Before dropping items off we ask that you check in at the office to pay for drop-off items and for direction to the container the items are to be placed in.</p>
 <h3>PRICING PER YARD</h3>
 <p>Household Waste - $20.00 per yard<br />
