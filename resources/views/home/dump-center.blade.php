@@ -1,14 +1,12 @@
 @extends('layouts.default')
 @section('content')
 <h1>On-Site Dumping Center</h1>
-<p>The drop-off center is open <strong>11:00am - 3:45pm</strong>, Monday, Wednesday, Friday.</p>
-<p>Before dropping items off we ask that you check in at the office to pay for drop-off items and for direction to the container the items are to be placed in.</p>
+<p>The drop-off center is open <strong>11:00am - 3:45pm</strong>, Monday, Wednesday, Friday by appointment only.</p>
+<!-- <p>Before dropping items off we ask that you check in at the office to pay for drop-off items and for direction to the container the items are to be placed in.</p> -->
 <h3>PRICING PER YARD</h3>
-<p>Household Waste - $20.00 per yard<br />
-    Construction Material - $25.00 per yard
-</p>
+<p>$25.00 per yard</p>
 <p>Construction Material Accepted: Shingles, Carpeting, Flooring, Drywall</p>
-<p>We accept pick-up truck loads and trailers up to 5' x 10'. Trailers larger than 5' x 10' or dump trucks are not accepted.</p>
+<p>We accept pick-up truck loads and trailers up to 5' x 10'. Dump trailers or dump trucks are not accepted.</p>
 <table class="table">
     <tr>
         <td>Stove or Oven</td>
