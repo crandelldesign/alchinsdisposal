@@ -2,7 +2,8 @@
 @section('content')
 
 <div class="alert alert-info text-center alert-announcement" role="alert">
-The Drop-Off Center is reopening Monday, 3/15/21, by appointment only. Recycling center is open by appointment only and the office remains closed to the public until further notice.
+Drop off Center and Recycling Center are by appointment only.<br>
+The Office will reopen to the public on 6/1/2021.
 </div>
 
 <h1>Welcome to Alchin's Disposal</h1>
