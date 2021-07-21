@@ -1,16 +1,21 @@
 import Vue from 'vue';
-import plugin from 'vue-braintree';
+//import plugin from 'vue-braintree';
 import axios from 'axios';
- 
-Vue.use(plugin)
+
+// Vue.use(plugin)
 
 new Vue({
   el: '#payment-form-container',
-  data () {
+  data() {
     return {
       instance: null,
       amount: null,
-      accountNumber: ''
+      accountNumber: '',
+      alert: {
+        show: false,
+        status: '',
+        message: '',
+      },
     }
   },
   mounted() {
@@ -46,16 +51,20 @@ new Vue({
             document.querySelector('#nonce').value = payload.nonce;
             form.submit();
           });
-        });*/ 
+        });*/
       });
     },
     submitForm() {
       // console.log(this.instance);
-      console.log(this.acountNumber);
+      console.log(this.accountNumber);
       console.log(this.amount);
-      this.instance.requestPaymentMethod( (err, payload) => {
+      this.instance.requestPaymentMethod((err, payload) => {
         if (err) {
           console.log('Request Payment Method Error', err);
+          this.alert.show = true;
+          this.alert.status = 'danger';
+          if (err.name === "DropinError")
+            this.alert.message = 'Please enter a payment method.';
           return;
         }
 
@@ -69,27 +78,27 @@ new Vue({
           nonce: payload.nonce
         };
         // console.log(postData)
-        axios.post('/api/payment', postData).then( (response) => {
+        axios.post('/api/payment', postData).then((response) => {
           console.log(response.data);
+          this.alert.show = true;
+          this.alert.status = response.data.status;
+          this.alert.message = response.data.message;
+          this.clearPaymentSelection();
         });
       });
     },
-    onLoad (instance) {
+    onLoad(instance) {
       this.instance = instance;
     },
-    onLoadFail (instance) {
+    onLoadFail(instance) {
       alert('load fail');
     },
-    onSuccess (payload) {
-      console.log("Success!", payload.nonce);
-    },
-    onError (error) {
-      console.log("Error!", error);
-    },
-    clearPaymentSelection () {
+    clearPaymentSelection() {
       if (this.instance != null) {
         this.instance.clearSelectedPaymentMethod();
       }
+      this.amount = null;
+      this.accountNumber = '';
     }
   }
 });

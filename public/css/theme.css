@@ -12053,3 +12053,7 @@ body.home-recycling .recycling-slogan {
   height: 400px;
 }
 
+[v-cloak] {
+  display: none;
+}
+
