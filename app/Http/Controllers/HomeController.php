@@ -50,9 +50,9 @@ class HomeController extends Controller
     public function getDumpsterRollOff()
     {
         $view = view('home.dumpster-roll-off-services');
-        $view->title = "Dumpster/Roll-Off Services | Alchin's Disposal, Inc ";
-        $view->description = "Cluttered Garage or Room? Get a dumpster from Alchin's Disposal, Inc and clean up that mess.";
-        $view->active_page = "dumpster-roll-off-services";
+        $view->title = "Roll-Off Services | Alchin's Disposal, Inc ";
+        $view->description = "Roll-offs are delivered and picked up Tuesday through Thursday. There is a 2 week time limit on our roll-offs. You MUST contact our office to have the roll-off removed within that 2 week time limit to avoid a $10.00 per day rental fee.";
+        $view->active_page = "roll-off-services";
 
         return $view;
     }
