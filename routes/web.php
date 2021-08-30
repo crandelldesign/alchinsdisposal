@@ -14,7 +14,10 @@
 Route::get('/', 'HomeController@getIndex');
 Route::get('/residential', 'HomeController@getResidential');
 Route::get('/commercial', 'HomeController@getCommercial');
-Route::get('/dumpster-roll-off', 'HomeController@getDumpsterRollOff');
+Route::get('/dumpster-roll-off', function(){ 
+    return Redirect::to('/roll-off', 301); 
+});
+Route::get('/roll-off', 'HomeController@getDumpsterRollOff');
 Route::get('/recycling', 'HomeController@getRecycling');
 Route::get('/dump-center', 'HomeController@getDumpCenter');
 Route::get('/holidays', 'HomeController@getHolidays');
