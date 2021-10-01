@@ -7,7 +7,7 @@
 <p><strong class="text-uppercase">You must input the amount you would like to pay on your account and then click the &quot;continue&quot; button.</strong></p>
 <p><strong class="text-uppercase">Payments received after 5pm on delinquent accounts does not guarantee pick up the next day. Credit for no pick up will not be issued on delinquent accounts after payment is received.</strong></p>
 
-<div id="smart-button-container">
+<!--<div id="smart-button-container">
 
   <div>
     <label for="description">Account Number </label>
@@ -119,7 +119,7 @@
   }
   initPayPalButton();
 
-</script>
+</script> -->
 
 <!-- <form class="form payment-form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 	<input type="hidden" name="cmd" value="_s-xclick">
